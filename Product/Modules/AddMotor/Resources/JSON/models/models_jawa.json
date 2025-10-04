@@ -1,0 +1,187 @@
+[
+  {
+    "id": "jawa-300-classic",
+    "brandId": "jawa",
+    "name": "Jawa 300 Classic",
+    "segment": "classic",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-…",
+        "startYear": 2018,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 293.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "jawa-forty-two",
+    "brandId": "jawa",
+    "name": "Jawa Forty Two",
+    "segment": "retro",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 293.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5 / BS6",
+        "engine": {
+          "displacementCC": 293.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "jawa-perak",
+    "brandId": "jawa",
+    "name": "Jawa Perak",
+    "segment": "bobber",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 334.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "jawa-350-ohc",
+    "brandId": "jawa",
+    "name": "Jawa 350 OHC",
+    "segment": "classic",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 397.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "jawa-42-bobber",
+    "brandId": "jawa",
+    "name": "Jawa 42 Bobber",
+    "segment": "bobber",
+    "production": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 334.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "id": "vespa-lx-50-125",
+    "brandId": "vespa",
+    "name": "LX 50 / 125 / 150",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2005,
+      "endYear": 2014
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2005-2014",
+        "startYear": 2005,
+        "endYear": 2014,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single 4T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "vespa-s-50-125",
+    "brandId": "vespa",
+    "name": "S 50 / 125 / 150",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2007,
+      "endYear": 2014
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2014",
+        "startYear": 2007,
+        "endYear": 2014,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single 4T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "vespa-primavera-50-125",
+    "brandId": "vespa",
+    "name": "Primavera 50 / 125 / 150",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2013,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2020",
+        "startYear": 2013,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "vespa-sprint-50-125",
+    "brandId": "vespa",
+    "name": "Sprint 50 / 125 / 150",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2013,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2020",
+        "startYear": 2013,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "vespa-gts-125-300",
+    "brandId": "vespa",
+    "name": "GTS 125 / 250 / 300",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2003,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2003-2013",
+        "startYear": 2003,
+        "endYear": 2013,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2020",
+        "startYear": 2014,
+        "endYear": 2020,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "vespa-et4-125",
+    "brandId": "vespa",
+    "name": "ET4 125 / 150",
+    "segment": "scooter",
+    "production": {
+      "startYear": 1996,
+      "endYear": 2005
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2005",
+        "startYear": 2000,
+        "endYear": 2005,
+        "revision": "Later years",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single 4T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "vespa-px-125-200",
+    "brandId": "vespa",
+    "name": "PX 125 / 150 / 200",
+    "segment": "scooter",
+    "production": {
+      "startYear": 1977,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2017",
+        "startYear": 2000,
+        "endYear": 2017,
+        "revision": "Later production",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "vespa-946",
+    "brandId": "vespa",
+    "name": "946",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2013,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-…",
+        "startYear": 2013,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 125.0,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "vespa-elettrica",
+    "brandId": "vespa",
+    "name": "Elettrica",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": "Electric scooter",
+    "periodSpecs": [
+      {
+        "id": "2018-…",
+        "startYear": 2018,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "type": "Electric",
+          "displacementCC": null,
+          "coolingSystem": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

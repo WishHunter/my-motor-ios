@@ -1,0 +1,459 @@
+[
+  {
+    "id": "bajaj-pulsar-150",
+    "brandId": "bajaj",
+    "name": "Pulsar 150",
+    "segment": "commuter",
+    "production": {
+      "startYear": 2001,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-2016",
+        "startYear": 2001,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 149.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 149.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "bajaj-pulsar-180",
+    "brandId": "bajaj",
+    "name": "Pulsar 180",
+    "segment": "commuter",
+    "production": {
+      "startYear": 2001,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-2016",
+        "startYear": 2001,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 178.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 178.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "bajaj-pulsar-200ns",
+    "brandId": "bajaj",
+    "name": "Pulsar 200NS / NS200",
+    "segment": "naked",
+    "production": {
+      "startYear": 2012,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2012-2016",
+        "startYear": 2012,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 199.5,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 199.5,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "bajaj-pulsar-220f",
+    "brandId": "bajaj",
+    "name": "Pulsar 220F",
+    "segment": "sport",
+    "production": {
+      "startYear": 2007,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2016",
+        "startYear": 2007,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 220.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Oil",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 220.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Oil",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "bajaj-dominar-400",
+    "brandId": "bajaj",
+    "name": "Dominar 400",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2018",
+        "startYear": 2016,
+        "endYear": 2018,
+        "revision": "373 early",
+        "engine": {
+          "displacementCC": 373.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "373 update",
+        "engine": {
+          "displacementCC": 373.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "bajaj-avenger-220",
+    "brandId": "bajaj",
+    "name": "Avenger 220 Cruise / Street",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2005,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2005-2016",
+        "startYear": 2005,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 220.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Oil",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 220.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Oil",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "bajaj-avenger-160",
+    "brandId": "bajaj",
+    "name": "Avenger 160 Street",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 160.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "bajaj-platina-100",
+    "brandId": "bajaj",
+    "name": "Platina 100",
+    "segment": "commuter",
+    "production": {
+      "startYear": 2006,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2016",
+        "startYear": 2006,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 102.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 102.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "bajaj-ct-100",
+    "brandId": "bajaj",
+    "name": "CT 100",
+    "segment": "commuter",
+    "production": {
+      "startYear": 2004,
+      "endYear": 2022
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2004-2016",
+        "startYear": 2004,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 102.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-2022",
+        "startYear": 2017,
+        "endYear": 2022,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 102.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

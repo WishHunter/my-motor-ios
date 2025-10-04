@@ -1,0 +1,585 @@
+[
+  {
+    "id": "triumph-bonneville-t100",
+    "brandId": "triumph",
+    "name": "Bonneville T100",
+    "segment": "retro",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2015",
+        "startYear": 2000,
+        "endYear": 2015,
+        "revision": "Air-cooled",
+        "engine": {
+          "displacementCC": 865.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2016-…",
+        "startYear": 2016,
+        "endYear": null,
+        "revision": "Liquid-cooled",
+        "engine": {
+          "displacementCC": 900.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-bonneville-t120",
+    "brandId": "triumph",
+    "name": "Bonneville T120",
+    "segment": "retro",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-…",
+        "startYear": 2016,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1200.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-street-twin",
+    "brandId": "triumph",
+    "name": "Street Twin / Speed Twin 900",
+    "segment": "retro",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2022",
+        "startYear": 2016,
+        "endYear": 2022,
+        "revision": "Street Twin",
+        "engine": {
+          "displacementCC": 900.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2023-…",
+        "startYear": 2023,
+        "endYear": null,
+        "revision": "Speed Twin 900",
+        "engine": {
+          "displacementCC": 900.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-speed-twin-1200",
+    "brandId": "triumph",
+    "name": "Speed Twin 1200",
+    "segment": "retro",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-2020",
+        "startYear": 2019,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1200.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 1200.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-thruxton-1200",
+    "brandId": "triumph",
+    "name": "Thruxton 1200",
+    "segment": "retro",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-…",
+        "startYear": 2016,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1200.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-tiger-800",
+    "brandId": "triumph",
+    "name": "Tiger 800",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2010,
+      "endYear": 2019
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2010-2014",
+        "startYear": 2010,
+        "endYear": 2014,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 799.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2015-2019",
+        "startYear": 2015,
+        "endYear": 2019,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 799.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-tiger-900",
+    "brandId": "triumph",
+    "name": "Tiger 900",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 888.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-tiger-1200",
+    "brandId": "triumph",
+    "name": "Tiger 1200",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2005,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2005-2011",
+        "startYear": 2005,
+        "endYear": 2011,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1050.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2012-2021",
+        "startYear": 2012,
+        "endYear": 2021,
+        "revision": "Explorer",
+        "engine": {
+          "displacementCC": 1215.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "New generation",
+        "engine": {
+          "displacementCC": 1160.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-street-triple",
+    "brandId": "triumph",
+    "name": "Street Triple 675 / 765",
+    "segment": "naked",
+    "production": {
+      "startYear": 2007,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2012",
+        "startYear": 2007,
+        "endYear": 2012,
+        "revision": "675 early",
+        "engine": {
+          "displacementCC": 675.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2013-2016",
+        "startYear": 2013,
+        "endYear": 2016,
+        "revision": "675 update",
+        "engine": {
+          "displacementCC": 675.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "765",
+        "engine": {
+          "displacementCC": 765.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-speed-triple",
+    "brandId": "triumph",
+    "name": "Speed Triple 1050 / 1200 RS",
+    "segment": "naked",
+    "production": {
+      "startYear": 2005,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2005-2010",
+        "startYear": 2005,
+        "endYear": 2010,
+        "revision": "1050 early",
+        "engine": {
+          "displacementCC": 1050.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2011-2020",
+        "startYear": 2011,
+        "endYear": 2020,
+        "revision": "1050 update",
+        "engine": {
+          "displacementCC": 1050.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "1200 RS",
+        "engine": {
+          "displacementCC": 1160.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "triumph-rocket-iii",
+    "brandId": "triumph",
+    "name": "Rocket III / Rocket 3",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2004,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2004-2018",
+        "startYear": 2004,
+        "endYear": 2018,
+        "revision": "Classic",
+        "engine": {
+          "displacementCC": 2294.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "New Rocket 3 R / GT",
+        "engine": {
+          "displacementCC": 2458.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

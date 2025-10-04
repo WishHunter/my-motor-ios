@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "honda-africa-twin-1000",
+    "brandId": "honda",
+    "name": "Africa Twin 1000",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2016,
+      "endYear": 2019
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2017",
+        "startYear": 2016,
+        "endYear": 2017,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "Showa USD",
+          "rearSuspension": "Monoshock",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 18.8
+        },
+        "equipment": null
+      },
+      {
+        "id": "2018-2019",
+        "startYear": 2018,
+        "endYear": 2019,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "Showa USD",
+          "rearSuspension": "Monoshock",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 18.8
+        },
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-africa-twin-1100",
+    "brandId": "honda",
+    "name": "Africa Twin 1100",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-2023",
+        "startYear": 2020,
+        "endYear": 2023,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 1084.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "Showa USD 45mm",
+          "rearSuspension": "Monoshock",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 18.8
+        },
+        "equipment": null
+      },
+      {
+        "id": "2024-…",
+        "startYear": 2024,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1084.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-cb500x",
+    "brandId": "honda",
+    "name": "CB500X",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2013,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2018",
+        "startYear": 2013,
+        "endYear": 2018,
+        "revision": "First gen",
+        "engine": {
+          "displacementCC": 471.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "Conventional fork",
+          "rearSuspension": "Monoshock",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 17.5
+        },
+        "equipment": null
+      },
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "Update (19\" front)",
+        "engine": {
+          "displacementCC": 471.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "Telescopic 41mm",
+          "rearSuspension": "Pro-Link",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 17.5
+        },
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-nc750x",
+    "brandId": "honda",
+    "name": "NC750X",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2014,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2020",
+        "startYear": 2014,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 745.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "DCT"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 14.1
+        },
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 745.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "DCT"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 14.1
+        },
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-cbr600rr",
+    "brandId": "honda",
+    "name": "CBR600RR",
+    "segment": "sport",
+    "production": {
+      "startYear": 2003,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2003-2006",
+        "startYear": 2003,
+        "endYear": 2006,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2007-2016",
+        "startYear": 2007,
+        "endYear": 2016,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Reintroduction",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-cbr1000rr",
+    "brandId": "honda",
+    "name": "CBR1000RR Fireblade",
+    "segment": "sport",
+    "production": {
+      "startYear": 2004,
+      "endYear": 2019
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2004-2007",
+        "startYear": 2004,
+        "endYear": 2007,
+        "revision": "SC57",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2008-2013",
+        "startYear": 2008,
+        "endYear": 2013,
+        "revision": "SC59",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2019",
+        "startYear": 2014,
+        "endYear": 2019,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-cbr1000rr-r",
+    "brandId": "honda",
+    "name": "CBR1000RR-R Fireblade",
+    "segment": "sport",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-2023",
+        "startYear": 2020,
+        "endYear": 2023,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2024-…",
+        "startYear": 2024,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-cbr650r",
+    "brandId": "honda",
+    "name": "CBR650R",
+    "segment": "sport",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-2020",
+        "startYear": 2019,
+        "endYear": 2020,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-cb650r",
+    "brandId": "honda",
+    "name": "CB650R",
+    "segment": "naked",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-2020",
+        "startYear": 2019,
+        "endYear": 2020,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-cb1000r",
+    "brandId": "honda",
+    "name": "CB1000R",
+    "segment": "naked",
+    "production": {
+      "startYear": 2008,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2017",
+        "startYear": 2008,
+        "endYear": 2017,
+        "revision": "First gen",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2018-…",
+        "startYear": 2018,
+        "endYear": null,
+        "revision": "Neo Sports Cafe",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-rebel-500",
+    "brandId": "honda",
+    "name": "Rebel 500",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2019",
+        "startYear": 2017,
+        "endYear": 2019,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 471.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 11.2
+        },
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 471.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 11.2
+        },
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-rebel-1100",
+    "brandId": "honda",
+    "name": "Rebel 1100",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 1084.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "DCT"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 13.6
+        },
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-crf250l",
+    "brandId": "honda",
+    "name": "CRF250L",
+    "segment": "dualsport",
+    "production": {
+      "startYear": 2012,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2012-2020",
+        "startYear": 2012,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 250.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "Telescopic 43mm",
+          "rearSuspension": "Pro-Link",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-crf300l",
+    "brandId": "honda",
+    "name": "CRF300L",
+    "segment": "dualsport",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 286.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "Telescopic 43mm",
+          "rearSuspension": "Pro-Link",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-crf450l",
+    "brandId": "honda",
+    "name": "CRF450L/RL",
+    "segment": "offroad",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "Street-legal enduro",
+        "engine": {
+          "displacementCC": 449.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "USD 49mm",
+          "rearSuspension": "Pro-Link",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-vfr800",
+    "brandId": "honda",
+    "name": "VFR800 (VTEC)",
+    "segment": "sport",
+    "production": {
+      "startYear": 2002,
+      "endYear": 2015
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2002-2005",
+        "startYear": 2002,
+        "endYear": 2005,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 781.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2006-2015",
+        "startYear": 2006,
+        "endYear": 2015,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 781.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-vfr1200f",
+    "brandId": "honda",
+    "name": "VFR1200F",
+    "segment": "sport",
+    "production": {
+      "startYear": 2010,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2010-2016",
+        "startYear": 2010,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1237.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "DCT"
+        },
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-gold-wing",
+    "brandId": "honda",
+    "name": "Gold Wing (GL1800)",
+    "segment": "touring",
+    "production": {
+      "startYear": 2001,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-2017",
+        "startYear": 2001,
+        "endYear": 2017,
+        "revision": "Pre-2018",
+        "engine": {
+          "displacementCC": 1833.0,
+          "engineType": "Flat-6",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "5/6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 25.0
+        },
+        "equipment": null
+      },
+      {
+        "id": "2018-…",
+        "startYear": 2018,
+        "endYear": null,
+        "revision": "New gen",
+        "engine": {
+          "displacementCC": 1833.0,
+          "engineType": "Flat-6",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "DCT"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 21.1
+        },
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-transalp-700",
+    "brandId": "honda",
+    "name": "Transalp 700 (XL700V)",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2008,
+      "endYear": 2013
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2013",
+        "startYear": 2008,
+        "endYear": 2013,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 680.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-transalp-750",
+    "brandId": "honda",
+    "name": "Transalp 750 (XL750)",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2023-…",
+        "startYear": 2023,
+        "endYear": null,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 755.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": null,
+          "rearSuspension": null,
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-hornet-600",
+    "brandId": "honda",
+    "name": "Hornet 600 (CB600F)",
+    "segment": "naked",
+    "production": {
+      "startYear": 2000,
+      "endYear": 2013
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2006",
+        "startYear": 2000,
+        "endYear": 2006,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2007-2013",
+        "startYear": 2007,
+        "endYear": 2013,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "honda-hornet-750",
+    "brandId": "honda",
+    "name": "Hornet 750 (CB750)",
+    "segment": "naked",
+    "production": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2023-…",
+        "startYear": 2023,
+        "endYear": null,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 755.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

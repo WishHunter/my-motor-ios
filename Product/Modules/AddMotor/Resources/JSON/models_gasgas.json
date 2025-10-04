@@ -1,0 +1,333 @@
+[
+  {
+    "id": "gasgas-ec-250",
+    "brandId": "gasgas",
+    "name": "EC 250",
+    "segment": "enduro",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2019",
+        "startYear": 2000,
+        "endYear": 2019,
+        "revision": "Pre-KTM",
+        "engine": {
+          "displacementCC": 249.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "KTM-based",
+        "engine": {
+          "displacementCC": 249.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "gasgas-ec-300",
+    "brandId": "gasgas",
+    "name": "EC 300",
+    "segment": "enduro",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2019",
+        "startYear": 2000,
+        "endYear": 2019,
+        "revision": "Pre-KTM",
+        "engine": {
+          "displacementCC": 293.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "KTM-based",
+        "engine": {
+          "displacementCC": 293.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "gasgas-mc-125",
+    "brandId": "gasgas",
+    "name": "MC 125",
+    "segment": "motocross",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2019",
+        "startYear": 2000,
+        "endYear": 2019,
+        "revision": "Pre-KTM",
+        "engine": {
+          "displacementCC": 124.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "KTM-based",
+        "engine": {
+          "displacementCC": 124.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "gasgas-mc-250f",
+    "brandId": "gasgas",
+    "name": "MC 250F",
+    "segment": "motocross",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 249.0,
+          "engineType": "Single 4T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "gasgas-mc-450f",
+    "brandId": "gasgas",
+    "name": "MC 450F",
+    "segment": "motocross",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 449.0,
+          "engineType": "Single 4T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "gasgas-txt-250",
+    "brandId": "gasgas",
+    "name": "TXT 250",
+    "segment": "trial",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2019",
+        "startYear": 2000,
+        "endYear": 2019,
+        "revision": "Pre-KTM",
+        "engine": {
+          "displacementCC": 249.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "KTM-based",
+        "engine": {
+          "displacementCC": 249.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "gasgas-txt-300",
+    "brandId": "gasgas",
+    "name": "TXT 300",
+    "segment": "trial",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2019",
+        "startYear": 2000,
+        "endYear": 2019,
+        "revision": "Pre-KTM",
+        "engine": {
+          "displacementCC": 294.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "KTM-based",
+        "engine": {
+          "displacementCC": 294.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

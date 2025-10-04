@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "yamaha-tenere-700",
+    "brandId": "yamaha",
+    "name": "Tenere 700",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-2022",
+        "startYear": 2019,
+        "endYear": 2022,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "USD 43mm",
+          "rearSuspension": "Monoshock",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 16.0
+        },
+        "equipment": null
+      },
+      {
+        "id": "2023-…",
+        "startYear": 2023,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": {
+          "gearbox": "6-speed",
+          "finalDrive": null,
+          "clutch": null,
+          "transmissionType": "Manual"
+        },
+        "chassis": {
+          "frontSuspension": "USD 43mm",
+          "rearSuspension": "Monoshock",
+          "frontWheelTravelMM": null,
+          "rearWheelTravelMM": null,
+          "frontTire": null,
+          "rearTire": null,
+          "frontBrake": null,
+          "rearBrake": null,
+          "abs": null
+        },
+        "dimensions": {
+          "totalWeightKG": null,
+          "seatHeightMM": null,
+          "totalLengthMM": null,
+          "totalHeightMM": null,
+          "totalWidthMM": null,
+          "wheelbaseMM": null,
+          "groundClearanceMM": null,
+          "fuelCapacityL": 16.0
+        },
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-super-tenere-1200",
+    "brandId": "yamaha",
+    "name": "Super Tenere 1200",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2010,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2010-2013",
+        "startYear": 2010,
+        "endYear": 2013,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1199.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2020",
+        "startYear": 2014,
+        "endYear": 2020,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1199.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-tracer-700",
+    "brandId": "yamaha",
+    "name": "Tracer 700",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2019",
+        "startYear": 2016,
+        "endYear": 2019,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-tracer-900",
+    "brandId": "yamaha",
+    "name": "Tracer 900 / 9 GT",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2017",
+        "startYear": 2015,
+        "endYear": 2017,
+        "revision": "FJ-09",
+        "engine": {
+          "displacementCC": 847.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Tracer 900",
+        "engine": {
+          "displacementCC": 847.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Tracer 9",
+        "engine": {
+          "displacementCC": 890.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fjr1300",
+    "brandId": "yamaha",
+    "name": "FJR1300",
+    "segment": "touring",
+    "production": {
+      "startYear": 2001,
+      "endYear": 2022
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-2005",
+        "startYear": 2001,
+        "endYear": 2005,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1298.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2006-2012",
+        "startYear": 2006,
+        "endYear": 2012,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1298.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2013-2022",
+        "startYear": 2013,
+        "endYear": 2022,
+        "revision": "Final",
+        "engine": {
+          "displacementCC": 1298.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-mt-07",
+    "brandId": "yamaha",
+    "name": "MT-07",
+    "segment": "naked",
+    "production": {
+      "startYear": 2014,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2017",
+        "startYear": 2014,
+        "endYear": 2017,
+        "revision": "First gen",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-mt-09",
+    "brandId": "yamaha",
+    "name": "MT-09",
+    "segment": "naked",
+    "production": {
+      "startYear": 2014,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2016",
+        "startYear": 2014,
+        "endYear": 2016,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 847.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-2020",
+        "startYear": 2017,
+        "endYear": 2020,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 847.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 890.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-mt-10",
+    "brandId": "yamaha",
+    "name": "MT-10",
+    "segment": "naked",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2021",
+        "startYear": 2016,
+        "endYear": 2021,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-mt-03",
+    "brandId": "yamaha",
+    "name": "MT-03",
+    "segment": "naked",
+    "production": {
+      "startYear": 2006,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2013",
+        "startYear": 2006,
+        "endYear": 2013,
+        "revision": "Single",
+        "engine": {
+          "displacementCC": 660.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2016-…",
+        "startYear": 2016,
+        "endYear": null,
+        "revision": "Twin",
+        "engine": {
+          "displacementCC": 321.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-xsr700",
+    "brandId": "yamaha",
+    "name": "XSR700",
+    "segment": "retro",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2020",
+        "startYear": 2016,
+        "endYear": 2020,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-xsr900",
+    "brandId": "yamaha",
+    "name": "XSR900",
+    "segment": "retro",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2021",
+        "startYear": 2016,
+        "endYear": 2021,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 847.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 890.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-r1",
+    "brandId": "yamaha",
+    "name": "YZF-R1",
+    "segment": "sport",
+    "production": {
+      "startYear": 1998,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2003",
+        "startYear": 2000,
+        "endYear": 2003,
+        "revision": "Early 2000s",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2004-2008",
+        "startYear": 2004,
+        "endYear": 2008,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2009-2014",
+        "startYear": 2009,
+        "endYear": 2014,
+        "revision": "Crossplane",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2015-…",
+        "startYear": 2015,
+        "endYear": null,
+        "revision": "Modern",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-r6",
+    "brandId": "yamaha",
+    "name": "YZF-R6",
+    "segment": "sport",
+    "production": {
+      "startYear": 1999,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2005",
+        "startYear": 2000,
+        "endYear": 2005,
+        "revision": "Early 2000s",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2006-2016",
+        "startYear": 2006,
+        "endYear": 2016,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-2020",
+        "startYear": 2017,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-r7",
+    "brandId": "yamaha",
+    "name": "YZF-R7",
+    "segment": "sport",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 689.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-r3",
+    "brandId": "yamaha",
+    "name": "YZF-R3",
+    "segment": "sport",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2018",
+        "startYear": 2015,
+        "endYear": 2018,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 321.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 321.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-bolt-950",
+    "brandId": "yamaha",
+    "name": "Bolt 950",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2014,
+      "endYear": 2021
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2021",
+        "startYear": 2014,
+        "endYear": 2021,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 942.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-vmax-1700",
+    "brandId": "yamaha",
+    "name": "VMAX 1700",
+    "segment": "power-cruiser",
+    "production": {
+      "startYear": 2009,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-2020",
+        "startYear": 2009,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1679.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fazer-600",
+    "brandId": "yamaha",
+    "name": "FZ6 Fazer",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2004,
+      "endYear": 2010
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2004-2006",
+        "startYear": 2004,
+        "endYear": 2006,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 600.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2007-2010",
+        "startYear": 2007,
+        "endYear": 2010,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 600.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fz1",
+    "brandId": "yamaha",
+    "name": "FZ1",
+    "segment": "naked",
+    "production": {
+      "startYear": 2001,
+      "endYear": 2015
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-2005",
+        "startYear": 2001,
+        "endYear": 2005,
+        "revision": "First gen",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2006-2015",
+        "startYear": 2006,
+        "endYear": 2015,
+        "revision": "Second gen",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "yamaha-xj6",
+    "brandId": "yamaha",
+    "name": "XJ6 Diversion",
+    "segment": "naked",
+    "production": {
+      "startYear": 2009,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-2016",
+        "startYear": 2009,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 600.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

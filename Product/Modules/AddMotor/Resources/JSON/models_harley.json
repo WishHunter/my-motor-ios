@@ -1,0 +1,525 @@
+[
+  {
+    "id": "harley-sportster-883",
+    "brandId": "harley-davidson",
+    "name": "Sportster 883 Iron / SuperLow",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2000,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2006",
+        "startYear": 2000,
+        "endYear": 2006,
+        "revision": "Carbureted",
+        "engine": {
+          "displacementCC": 883.0,
+          "engineType": "V-Twin Evolution",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2007-2020",
+        "startYear": 2007,
+        "endYear": 2020,
+        "revision": "Fuel Injection",
+        "engine": {
+          "displacementCC": 883.0,
+          "engineType": "V-Twin Evolution",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-sportster-1200",
+    "brandId": "harley-davidson",
+    "name": "Sportster 1200 Custom / Forty-Eight",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2000,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2006",
+        "startYear": 2000,
+        "endYear": 2006,
+        "revision": "Carbureted",
+        "engine": {
+          "displacementCC": 1202.0,
+          "engineType": "V-Twin Evolution",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2007-2020",
+        "startYear": 2007,
+        "endYear": 2020,
+        "revision": "Fuel Injection",
+        "engine": {
+          "displacementCC": 1202.0,
+          "engineType": "V-Twin Evolution",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-sportster-s",
+    "brandId": "harley-davidson",
+    "name": "Sportster S (1250T)",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Revolution Max",
+        "engine": {
+          "displacementCC": 1252.0,
+          "engineType": "V-Twin Revolution Max",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-dyna-street-bob",
+    "brandId": "harley-davidson",
+    "name": "Dyna Street Bob",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2006,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2017",
+        "startYear": 2006,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1584.0,
+          "engineType": "V-Twin Twin Cam",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-dyna-fat-bob",
+    "brandId": "harley-davidson",
+    "name": "Dyna Fat Bob",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2008,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2017",
+        "startYear": 2008,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1584.0,
+          "engineType": "V-Twin Twin Cam",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-softail-street-bob",
+    "brandId": "harley-davidson",
+    "name": "Softail Street Bob",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Milwaukee-Eight 107",
+        "engine": {
+          "displacementCC": 1746.0,
+          "engineType": "V-Twin Milwaukee-Eight",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Milwaukee-Eight 114",
+        "engine": {
+          "displacementCC": 1868.0,
+          "engineType": "V-Twin Milwaukee-Eight",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-softail-fat-bob",
+    "brandId": "harley-davidson",
+    "name": "Softail Fat Bob",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-…",
+        "startYear": 2018,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1868.0,
+          "engineType": "V-Twin Milwaukee-Eight",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-softail-fat-boy",
+    "brandId": "harley-davidson",
+    "name": "Softail Fat Boy",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2017",
+        "startYear": 2000,
+        "endYear": 2017,
+        "revision": "Twin Cam",
+        "engine": {
+          "displacementCC": 1450.0,
+          "engineType": "V-Twin Twin Cam",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2018-…",
+        "startYear": 2018,
+        "endYear": null,
+        "revision": "Milwaukee-Eight",
+        "engine": {
+          "displacementCC": 1746.0,
+          "engineType": "V-Twin Milwaukee-Eight",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-road-king",
+    "brandId": "harley-davidson",
+    "name": "Road King",
+    "segment": "touring",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2006",
+        "startYear": 2000,
+        "endYear": 2006,
+        "revision": "Early Twin Cam",
+        "engine": {
+          "displacementCC": 1450.0,
+          "engineType": "V-Twin Twin Cam",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2007-2016",
+        "startYear": 2007,
+        "endYear": 2016,
+        "revision": "Twin Cam 96/103",
+        "engine": {
+          "displacementCC": 1584.0,
+          "engineType": "V-Twin Twin Cam",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "Milwaukee-Eight",
+        "engine": {
+          "displacementCC": 1746.0,
+          "engineType": "V-Twin Milwaukee-Eight",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-street-glide",
+    "brandId": "harley-davidson",
+    "name": "Street Glide",
+    "segment": "touring",
+    "production": {
+      "startYear": 2006,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2016",
+        "startYear": 2006,
+        "endYear": 2016,
+        "revision": "Twin Cam",
+        "engine": {
+          "displacementCC": 1584.0,
+          "engineType": "V-Twin Twin Cam",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "Milwaukee-Eight",
+        "engine": {
+          "displacementCC": 1746.0,
+          "engineType": "V-Twin Milwaukee-Eight",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "harley-electra-glide",
+    "brandId": "harley-davidson",
+    "name": "Electra Glide",
+    "segment": "touring",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2016",
+        "startYear": 2000,
+        "endYear": 2016,
+        "revision": "Twin Cam",
+        "engine": {
+          "displacementCC": 1450.0,
+          "engineType": "V-Twin Twin Cam",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "Milwaukee-Eight",
+        "engine": {
+          "displacementCC": 1746.0,
+          "engineType": "V-Twin Milwaukee-Eight",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

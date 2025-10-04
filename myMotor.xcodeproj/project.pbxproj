@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58FE3B062E81B40100638515 /* myMotorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B052E81B40100638515 /* myMotorApp.swift */; };
+		58FE3B082E81B40100638515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B072E81B40100638515 /* ContentView.swift */; };
+		58FE3B0A2E81B40300638515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B092E81B40300638515 /* Assets.xcassets */; };
+		58FE3B332E81D3F000638515 /* AddMotor+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B322E81D3ED00638515 /* AddMotor+View.swift */; };
+		58FE3B352E81D3F800638515 /* AddMotor+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B342E81D3F400638515 /* AddMotor+Model.swift */; };
+		58FE3B3E2E82754E00638515 /* MotorsSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B3D2E82754800638515 /* MotorsSession.swift */; };
+		58FE3B422E8276A500638515 /* HTTPTypes in Frameworks */ = {isa = PBXBuildFile; productRef = 58FE3B412E8276A500638515 /* HTTPTypes */; };
+		58FE3B442E8276A500638515 /* HTTPTypesFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 58FE3B432E8276A500638515 /* HTTPTypesFoundation */; };
+		58FE3B472E8276D300638515 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 58FE3B462E8276D300638515 /* Factory */; };
+		58FE3B492E8276D700638515 /* FactoryKit in Frameworks */ = {isa = PBXBuildFile; productRef = 58FE3B482E8276D700638515 /* FactoryKit */; };
+		58FE3B4D2E8298A000638515 /* MotorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B4C2E82989500638515 /* MotorInfo.swift */; };
+		58FE3B542E82E1CC00638515 /* brands.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B532E82E1CC00638515 /* brands.json */; };
+		58FE3B562E82EE5600638515 /* models_honda.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B552E82EE5600638515 /* models_honda.json */; };
+		58FE3B582E82F02100638515 /* models_yamaha.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B572E82F02100638515 /* models_yamaha.json */; };
+		58FE3B712E82FBB700638515 /* models_piaggio.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B6A2E82FBB700638515 /* models_piaggio.json */; };
+		58FE3B722E82FBB700638515 /* models_kymco.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B672E82FBB700638515 /* models_kymco.json */; };
+		58FE3B732E82FBB700638515 /* models_benelli.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B5C2E82FBB700638515 /* models_benelli.json */; };
+		58FE3B742E82FBB700638515 /* models_cfmoto.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B5E2E82FBB700638515 /* models_cfmoto.json */; };
+		58FE3B752E82FBB700638515 /* models_kawasaki.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B652E82FBB700638515 /* models_kawasaki.json */; };
+		58FE3B762E82FBB700638515 /* models_mvagusta.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B692E82FBB700638515 /* models_mvagusta.json */; };
+		58FE3B772E82FBB700638515 /* models_aprilia.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B5A2E82FBB700638515 /* models_aprilia.json */; };
+		58FE3B782E82FBB700638515 /* models_bmw.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B5D2E82FBB700638515 /* models_bmw.json */; };
+		58FE3B792E82FBB700638515 /* models_tvs.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B6E2E82FBB700638515 /* models_tvs.json */; };
+		58FE3B7A2E82FBB700638515 /* models_ural.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B6F2E82FBB700638515 /* models_ural.json */; };
+		58FE3B7B2E82FBB700638515 /* models_jawa.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B642E82FBB700638515 /* models_jawa.json */; };
+		58FE3B7C2E82FBB700638515 /* models_bajaj.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B5B2E82FBB700638515 /* models_bajaj.json */; };
+		58FE3B7D2E82FBB700638515 /* models_suzuki.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B6C2E82FBB700638515 /* models_suzuki.json */; };
+		58FE3B7E2E82FBB700638515 /* models_husqvarna.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B622E82FBB700638515 /* models_husqvarna.json */; };
+		58FE3B7F2E82FBB700638515 /* models_ktm.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B662E82FBB700638515 /* models_ktm.json */; };
+		58FE3B802E82FBB700638515 /* models_motoguzzi.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B682E82FBB700638515 /* models_motoguzzi.json */; };
+		58FE3B812E82FBB700638515 /* models_harley.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B612E82FBB700638515 /* models_harley.json */; };
+		58FE3B822E82FBB700638515 /* models_vespa.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B702E82FBB700638515 /* models_vespa.json */; };
+		58FE3B832E82FBB700638515 /* models_indian.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B632E82FBB700638515 /* models_indian.json */; };
+		58FE3B842E82FBB700638515 /* models_ducati.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B5F2E82FBB700638515 /* models_ducati.json */; };
+		58FE3B852E82FBB700638515 /* models_gasgas.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B602E82FBB700638515 /* models_gasgas.json */; };
+		58FE3B862E82FBB700638515 /* models_royalenfield.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B6B2E82FBB700638515 /* models_royalenfield.json */; };
+		58FE3B872E82FBB700638515 /* models_triumph.json in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B6D2E82FBB700638515 /* models_triumph.json */; };
+		58FE3B892E82FCA400638515 /* BrandResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B882E82FC8700638515 /* BrandResponse.swift */; };
+		58FE3B8B2E82FE8700638515 /* MotorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B8A2E82FE8100638515 /* MotorResponse.swift */; };
+		58FE3B8D2E83C71200638515 /* Error+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B8C2E83C70C00638515 /* Error+.swift */; };
+		58FE3B8F2E849D4000638515 /* JSONLoader+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B8E2E849D4000638515 /* JSONLoader+.swift */; };
+		58FE3B922E872A4100638515 /* UserDefault+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B912E872A4100638515 /* UserDefault+.swift */; };
+		58FE3B932E872A4100638515 /* Published+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B902E872A4100638515 /* Published+.swift */; };
+		58FE3B972E882F0700638515 /* Dashboard+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B962E882F0100638515 /* Dashboard+View.swift */; };
+		58FE3B992E882F1100638515 /* Dashboard+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B982E882F0D00638515 /* Dashboard+Model.swift */; };
+		58FE3B9B2E8832D300638515 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B9A2E8832CB00638515 /* Authorization.swift */; };
+		58FE3B9E2E88356B00638515 /* MyMotors+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B9D2E88356700638515 /* MyMotors+View.swift */; };
+		58FE3BA02E88360100638515 /* MyMotors+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B9F2E8835F700638515 /* MyMotors+Model.swift */; };
+		58FE3BA22E8839B000638515 /* View+NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3BA12E8839A500638515 /* View+NavigationStack.swift */; };
+		58FE3BA52E883A2F00638515 /* EmptyMotorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3BA42E883A2500638515 /* EmptyMotorsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58FE3B102E81B40300638515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FE3AFA2E81B40000638515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58FE3B012E81B40100638515;
+			remoteInfo = myMotor;
+		};
+		58FE3B1A2E81B40300638515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58FE3AFA2E81B40000638515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58FE3B012E81B40100638515;
+			remoteInfo = myMotor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58FE3B022E81B40100638515 /* myMotor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMotor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FE3B052E81B40100638515 /* myMotorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMotorApp.swift; sourceTree = "<group>"; };
+		58FE3B072E81B40100638515 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58FE3B092E81B40300638515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58FE3B0F2E81B40300638515 /* myMotorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMotorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FE3B192E81B40300638515 /* myMotorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMotorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FE3B322E81D3ED00638515 /* AddMotor+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddMotor+View.swift"; sourceTree = "<group>"; };
+		58FE3B342E81D3F400638515 /* AddMotor+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddMotor+Model.swift"; sourceTree = "<group>"; };
+		58FE3B3D2E82754800638515 /* MotorsSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorsSession.swift; sourceTree = "<group>"; };
+		58FE3B4C2E82989500638515 /* MotorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorInfo.swift; sourceTree = "<group>"; };
+		58FE3B532E82E1CC00638515 /* brands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = brands.json; sourceTree = "<group>"; };
+		58FE3B552E82EE5600638515 /* models_honda.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_honda.json; sourceTree = "<group>"; };
+		58FE3B572E82F02100638515 /* models_yamaha.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_yamaha.json; sourceTree = "<group>"; };
+		58FE3B5A2E82FBB700638515 /* models_aprilia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_aprilia.json; sourceTree = "<group>"; };
+		58FE3B5B2E82FBB700638515 /* models_bajaj.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_bajaj.json; sourceTree = "<group>"; };
+		58FE3B5C2E82FBB700638515 /* models_benelli.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_benelli.json; sourceTree = "<group>"; };
+		58FE3B5D2E82FBB700638515 /* models_bmw.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_bmw.json; sourceTree = "<group>"; };
+		58FE3B5E2E82FBB700638515 /* models_cfmoto.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_cfmoto.json; sourceTree = "<group>"; };
+		58FE3B5F2E82FBB700638515 /* models_ducati.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_ducati.json; sourceTree = "<group>"; };
+		58FE3B602E82FBB700638515 /* models_gasgas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_gasgas.json; sourceTree = "<group>"; };
+		58FE3B612E82FBB700638515 /* models_harley.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_harley.json; sourceTree = "<group>"; };
+		58FE3B622E82FBB700638515 /* models_husqvarna.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_husqvarna.json; sourceTree = "<group>"; };
+		58FE3B632E82FBB700638515 /* models_indian.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_indian.json; sourceTree = "<group>"; };
+		58FE3B642E82FBB700638515 /* models_jawa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_jawa.json; sourceTree = "<group>"; };
+		58FE3B652E82FBB700638515 /* models_kawasaki.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_kawasaki.json; sourceTree = "<group>"; };
+		58FE3B662E82FBB700638515 /* models_ktm.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_ktm.json; sourceTree = "<group>"; };
+		58FE3B672E82FBB700638515 /* models_kymco.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_kymco.json; sourceTree = "<group>"; };
+		58FE3B682E82FBB700638515 /* models_motoguzzi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_motoguzzi.json; sourceTree = "<group>"; };
+		58FE3B692E82FBB700638515 /* models_mvagusta.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_mvagusta.json; sourceTree = "<group>"; };
+		58FE3B6A2E82FBB700638515 /* models_piaggio.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_piaggio.json; sourceTree = "<group>"; };
+		58FE3B6B2E82FBB700638515 /* models_royalenfield.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_royalenfield.json; sourceTree = "<group>"; };
+		58FE3B6C2E82FBB700638515 /* models_suzuki.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_suzuki.json; sourceTree = "<group>"; };
+		58FE3B6D2E82FBB700638515 /* models_triumph.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_triumph.json; sourceTree = "<group>"; };
+		58FE3B6E2E82FBB700638515 /* models_tvs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_tvs.json; sourceTree = "<group>"; };
+		58FE3B6F2E82FBB700638515 /* models_ural.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_ural.json; sourceTree = "<group>"; };
+		58FE3B702E82FBB700638515 /* models_vespa.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models_vespa.json; sourceTree = "<group>"; };
+		58FE3B882E82FC8700638515 /* BrandResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandResponse.swift; sourceTree = "<group>"; };
+		58FE3B8A2E82FE8100638515 /* MotorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorResponse.swift; sourceTree = "<group>"; };
+		58FE3B8C2E83C70C00638515 /* Error+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+.swift"; sourceTree = "<group>"; };
+		58FE3B8E2E849D4000638515 /* JSONLoader+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONLoader+.swift"; sourceTree = "<group>"; };
+		58FE3B902E872A4100638515 /* Published+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Published+.swift"; sourceTree = "<group>"; };
+		58FE3B912E872A4100638515 /* UserDefault+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+.swift"; sourceTree = "<group>"; };
+		58FE3B962E882F0100638515 /* Dashboard+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard+View.swift"; sourceTree = "<group>"; };
+		58FE3B982E882F0D00638515 /* Dashboard+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dashboard+Model.swift"; sourceTree = "<group>"; };
+		58FE3B9A2E8832CB00638515 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		58FE3B9D2E88356700638515 /* MyMotors+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyMotors+View.swift"; sourceTree = "<group>"; };
+		58FE3B9F2E8835F700638515 /* MyMotors+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyMotors+Model.swift"; sourceTree = "<group>"; };
+		58FE3BA12E8839A500638515 /* View+NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+NavigationStack.swift"; sourceTree = "<group>"; };
+		58FE3BA42E883A2500638515 /* EmptyMotorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMotorsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FE3AFF2E81B40100638515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FE3B472E8276D300638515 /* Factory in Frameworks */,
+				58FE3B422E8276A500638515 /* HTTPTypes in Frameworks */,
+				58FE3B492E8276D700638515 /* FactoryKit in Frameworks */,
+				58FE3B442E8276A500638515 /* HTTPTypesFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE3B0C2E81B40300638515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE3B162E81B40300638515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58FE3AF92E81B40000638515 = {
+			isa = PBXGroup;
+			children = (
+				58FE3B2C2E81D39B00638515 /* Product */,
+				58FE3B452E8276D300638515 /* Frameworks */,
+				58FE3B032E81B40100638515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58FE3B032E81B40100638515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B022E81B40100638515 /* myMotor.app */,
+				58FE3B0F2E81B40300638515 /* myMotorTests.xctest */,
+				58FE3B192E81B40300638515 /* myMotorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58FE3B2C2E81D39B00638515 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B2E2E81D3C600638515 /* Modules */,
+				58FE3B2D2E81D3B200638515 /* App */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		58FE3B2D2E81D3B200638515 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B092E81B40300638515 /* Assets.xcassets */,
+				58FE3B9A2E8832CB00638515 /* Authorization.swift */,
+				58FE3B072E81B40100638515 /* ContentView.swift */,
+				58FE3B052E81B40100638515 /* myMotorApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		58FE3B2E2E81D3C600638515 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3BA32E883A1400638515 /* DesignSystem */,
+				58FE3B9C2E88353400638515 /* MyMotors */,
+				58FE3B952E882EE600638515 /* Dashboard */,
+				58FE3B3A2E82750800638515 /* AppData */,
+				58FE3B2F2E81D3D000638515 /* AddMotor */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		58FE3B2F2E81D3D000638515 /* AddMotor */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B372E81D40A00638515 /* Resources */,
+				58FE3B362E81D40300638515 /* Sources */,
+			);
+			path = AddMotor;
+			sourceTree = "<group>";
+		};
+		58FE3B362E81D40300638515 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B8A2E82FE8100638515 /* MotorResponse.swift */,
+				58FE3B882E82FC8700638515 /* BrandResponse.swift */,
+				58FE3B342E81D3F400638515 /* AddMotor+Model.swift */,
+				58FE3B322E81D3ED00638515 /* AddMotor+View.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		58FE3B372E81D40A00638515 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B522E82E19800638515 /* JSON */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58FE3B3A2E82750800638515 /* AppData */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3BA12E8839A500638515 /* View+NavigationStack.swift */,
+				58FE3B902E872A4100638515 /* Published+.swift */,
+				58FE3B912E872A4100638515 /* UserDefault+.swift */,
+				58FE3B8E2E849D4000638515 /* JSONLoader+.swift */,
+				58FE3B8C2E83C70C00638515 /* Error+.swift */,
+				58FE3B3B2E82752300638515 /* Sessions */,
+			);
+			path = AppData;
+			sourceTree = "<group>";
+		};
+		58FE3B3B2E82752300638515 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B942E87C69100638515 /* MotorSession */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+		58FE3B452E8276D300638515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58FE3B522E82E19800638515 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B592E82FB9A00638515 /* models */,
+				58FE3B532E82E1CC00638515 /* brands.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		58FE3B592E82FB9A00638515 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B5A2E82FBB700638515 /* models_aprilia.json */,
+				58FE3B5B2E82FBB700638515 /* models_bajaj.json */,
+				58FE3B5C2E82FBB700638515 /* models_benelli.json */,
+				58FE3B5D2E82FBB700638515 /* models_bmw.json */,
+				58FE3B5E2E82FBB700638515 /* models_cfmoto.json */,
+				58FE3B5F2E82FBB700638515 /* models_ducati.json */,
+				58FE3B602E82FBB700638515 /* models_gasgas.json */,
+				58FE3B612E82FBB700638515 /* models_harley.json */,
+				58FE3B622E82FBB700638515 /* models_husqvarna.json */,
+				58FE3B632E82FBB700638515 /* models_indian.json */,
+				58FE3B642E82FBB700638515 /* models_jawa.json */,
+				58FE3B652E82FBB700638515 /* models_kawasaki.json */,
+				58FE3B662E82FBB700638515 /* models_ktm.json */,
+				58FE3B672E82FBB700638515 /* models_kymco.json */,
+				58FE3B682E82FBB700638515 /* models_motoguzzi.json */,
+				58FE3B692E82FBB700638515 /* models_mvagusta.json */,
+				58FE3B6A2E82FBB700638515 /* models_piaggio.json */,
+				58FE3B6B2E82FBB700638515 /* models_royalenfield.json */,
+				58FE3B6C2E82FBB700638515 /* models_suzuki.json */,
+				58FE3B6D2E82FBB700638515 /* models_triumph.json */,
+				58FE3B6E2E82FBB700638515 /* models_tvs.json */,
+				58FE3B6F2E82FBB700638515 /* models_ural.json */,
+				58FE3B702E82FBB700638515 /* models_vespa.json */,
+				58FE3B572E82F02100638515 /* models_yamaha.json */,
+				58FE3B552E82EE5600638515 /* models_honda.json */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		58FE3B942E87C69100638515 /* MotorSession */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B4C2E82989500638515 /* MotorInfo.swift */,
+				58FE3B3D2E82754800638515 /* MotorsSession.swift */,
+			);
+			path = MotorSession;
+			sourceTree = "<group>";
+		};
+		58FE3B952E882EE600638515 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B982E882F0D00638515 /* Dashboard+Model.swift */,
+				58FE3B962E882F0100638515 /* Dashboard+View.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		58FE3B9C2E88353400638515 /* MyMotors */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3B9F2E8835F700638515 /* MyMotors+Model.swift */,
+				58FE3B9D2E88356700638515 /* MyMotors+View.swift */,
+			);
+			path = MyMotors;
+			sourceTree = "<group>";
+		};
+		58FE3BA32E883A1400638515 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				58FE3BA42E883A2500638515 /* EmptyMotorsView.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58FE3B012E81B40100638515 /* myMotor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FE3B232E81B40300638515 /* Build configuration list for PBXNativeTarget "myMotor" */;
+			buildPhases = (
+				58FE3AFE2E81B40100638515 /* Sources */,
+				58FE3AFF2E81B40100638515 /* Frameworks */,
+				58FE3B002E81B40100638515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myMotor;
+			packageProductDependencies = (
+				58FE3B412E8276A500638515 /* HTTPTypes */,
+				58FE3B432E8276A500638515 /* HTTPTypesFoundation */,
+				58FE3B462E8276D300638515 /* Factory */,
+				58FE3B482E8276D700638515 /* FactoryKit */,
+			);
+			productName = myMotor;
+			productReference = 58FE3B022E81B40100638515 /* myMotor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58FE3B0E2E81B40300638515 /* myMotorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FE3B262E81B40300638515 /* Build configuration list for PBXNativeTarget "myMotorTests" */;
+			buildPhases = (
+				58FE3B0B2E81B40300638515 /* Sources */,
+				58FE3B0C2E81B40300638515 /* Frameworks */,
+				58FE3B0D2E81B40300638515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FE3B112E81B40300638515 /* PBXTargetDependency */,
+			);
+			name = myMotorTests;
+			packageProductDependencies = (
+			);
+			productName = myMotorTests;
+			productReference = 58FE3B0F2E81B40300638515 /* myMotorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58FE3B182E81B40300638515 /* myMotorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FE3B292E81B40300638515 /* Build configuration list for PBXNativeTarget "myMotorUITests" */;
+			buildPhases = (
+				58FE3B152E81B40300638515 /* Sources */,
+				58FE3B162E81B40300638515 /* Frameworks */,
+				58FE3B172E81B40300638515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58FE3B1B2E81B40300638515 /* PBXTargetDependency */,
+			);
+			name = myMotorUITests;
+			packageProductDependencies = (
+			);
+			productName = myMotorUITests;
+			productReference = 58FE3B192E81B40300638515 /* myMotorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58FE3AFA2E81B40000638515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					58FE3B012E81B40100638515 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					58FE3B0E2E81B40300638515 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 58FE3B012E81B40100638515;
+					};
+					58FE3B182E81B40300638515 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 58FE3B012E81B40100638515;
+					};
+				};
+			};
+			buildConfigurationList = 58FE3AFD2E81B40000638515 /* Build configuration list for PBXProject "myMotor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58FE3AF92E81B40000638515;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				58FE3B3F2E82764900638515 /* XCRemoteSwiftPackageReference "Factory" */,
+				58FE3B402E8276A500638515 /* XCRemoteSwiftPackageReference "swift-http-types" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 58FE3B032E81B40100638515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58FE3B012E81B40100638515 /* myMotor */,
+				58FE3B0E2E81B40300638515 /* myMotorTests */,
+				58FE3B182E81B40300638515 /* myMotorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58FE3B002E81B40100638515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FE3B582E82F02100638515 /* models_yamaha.json in Resources */,
+				58FE3B562E82EE5600638515 /* models_honda.json in Resources */,
+				58FE3B542E82E1CC00638515 /* brands.json in Resources */,
+				58FE3B0A2E81B40300638515 /* Assets.xcassets in Resources */,
+				58FE3B712E82FBB700638515 /* models_piaggio.json in Resources */,
+				58FE3B722E82FBB700638515 /* models_kymco.json in Resources */,
+				58FE3B732E82FBB700638515 /* models_benelli.json in Resources */,
+				58FE3B742E82FBB700638515 /* models_cfmoto.json in Resources */,
+				58FE3B752E82FBB700638515 /* models_kawasaki.json in Resources */,
+				58FE3B762E82FBB700638515 /* models_mvagusta.json in Resources */,
+				58FE3B772E82FBB700638515 /* models_aprilia.json in Resources */,
+				58FE3B782E82FBB700638515 /* models_bmw.json in Resources */,
+				58FE3B792E82FBB700638515 /* models_tvs.json in Resources */,
+				58FE3B7A2E82FBB700638515 /* models_ural.json in Resources */,
+				58FE3B7B2E82FBB700638515 /* models_jawa.json in Resources */,
+				58FE3B7C2E82FBB700638515 /* models_bajaj.json in Resources */,
+				58FE3B7D2E82FBB700638515 /* models_suzuki.json in Resources */,
+				58FE3B7E2E82FBB700638515 /* models_husqvarna.json in Resources */,
+				58FE3B7F2E82FBB700638515 /* models_ktm.json in Resources */,
+				58FE3B802E82FBB700638515 /* models_motoguzzi.json in Resources */,
+				58FE3B812E82FBB700638515 /* models_harley.json in Resources */,
+				58FE3B822E82FBB700638515 /* models_vespa.json in Resources */,
+				58FE3B832E82FBB700638515 /* models_indian.json in Resources */,
+				58FE3B842E82FBB700638515 /* models_ducati.json in Resources */,
+				58FE3B852E82FBB700638515 /* models_gasgas.json in Resources */,
+				58FE3B862E82FBB700638515 /* models_royalenfield.json in Resources */,
+				58FE3B872E82FBB700638515 /* models_triumph.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE3B0D2E81B40300638515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE3B172E81B40300638515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58FE3AFE2E81B40100638515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FE3B082E81B40100638515 /* ContentView.swift in Sources */,
+				58FE3B3E2E82754E00638515 /* MotorsSession.swift in Sources */,
+				58FE3BA52E883A2F00638515 /* EmptyMotorsView.swift in Sources */,
+				58FE3B972E882F0700638515 /* Dashboard+View.swift in Sources */,
+				58FE3B062E81B40100638515 /* myMotorApp.swift in Sources */,
+				58FE3B332E81D3F000638515 /* AddMotor+View.swift in Sources */,
+				58FE3B352E81D3F800638515 /* AddMotor+Model.swift in Sources */,
+				58FE3B992E882F1100638515 /* Dashboard+Model.swift in Sources */,
+				58FE3B892E82FCA400638515 /* BrandResponse.swift in Sources */,
+				58FE3B4D2E8298A000638515 /* MotorInfo.swift in Sources */,
+				58FE3B9B2E8832D300638515 /* Authorization.swift in Sources */,
+				58FE3B8D2E83C71200638515 /* Error+.swift in Sources */,
+				58FE3BA02E88360100638515 /* MyMotors+Model.swift in Sources */,
+				58FE3B8F2E849D4000638515 /* JSONLoader+.swift in Sources */,
+				58FE3B922E872A4100638515 /* UserDefault+.swift in Sources */,
+				58FE3B932E872A4100638515 /* Published+.swift in Sources */,
+				58FE3B9E2E88356B00638515 /* MyMotors+View.swift in Sources */,
+				58FE3B8B2E82FE8700638515 /* MotorResponse.swift in Sources */,
+				58FE3BA22E8839B000638515 /* View+NavigationStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE3B0B2E81B40300638515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE3B152E81B40300638515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58FE3B112E81B40300638515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58FE3B012E81B40100638515 /* myMotor */;
+			targetProxy = 58FE3B102E81B40300638515 /* PBXContainerItemProxy */;
+		};
+		58FE3B1B2E81B40300638515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58FE3B012E81B40100638515 /* myMotor */;
+			targetProxy = 58FE3B1A2E81B40300638515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58FE3B212E81B40300638515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XT64G8FBNG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FE3B222E81B40300638515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XT64G8FBNG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58FE3B242E81B40300638515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XT64G8FBNG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DenisMolkov.myMotor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58FE3B252E81B40300638515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XT64G8FBNG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DenisMolkov.myMotor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58FE3B272E81B40300638515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XT64G8FBNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DenisMolkov.myMotorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myMotor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myMotor";
+			};
+			name = Debug;
+		};
+		58FE3B282E81B40300638515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XT64G8FBNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DenisMolkov.myMotorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myMotor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myMotor";
+			};
+			name = Release;
+		};
+		58FE3B2A2E81B40300638515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XT64G8FBNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DenisMolkov.myMotorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myMotor;
+			};
+			name = Debug;
+		};
+		58FE3B2B2E81B40300638515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XT64G8FBNG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DenisMolkov.myMotorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myMotor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58FE3AFD2E81B40000638515 /* Build configuration list for PBXProject "myMotor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FE3B212E81B40300638515 /* Debug */,
+				58FE3B222E81B40300638515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FE3B232E81B40300638515 /* Build configuration list for PBXNativeTarget "myMotor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FE3B242E81B40300638515 /* Debug */,
+				58FE3B252E81B40300638515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FE3B262E81B40300638515 /* Build configuration list for PBXNativeTarget "myMotorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FE3B272E81B40300638515 /* Debug */,
+				58FE3B282E81B40300638515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FE3B292E81B40300638515 /* Build configuration list for PBXNativeTarget "myMotorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FE3B2A2E81B40300638515 /* Debug */,
+				58FE3B2B2E81B40300638515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58FE3B3F2E82764900638515 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.3;
+			};
+		};
+		58FE3B402E8276A500638515 /* XCRemoteSwiftPackageReference "swift-http-types" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-http-types";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58FE3B412E8276A500638515 /* HTTPTypes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58FE3B402E8276A500638515 /* XCRemoteSwiftPackageReference "swift-http-types" */;
+			productName = HTTPTypes;
+		};
+		58FE3B432E8276A500638515 /* HTTPTypesFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58FE3B402E8276A500638515 /* XCRemoteSwiftPackageReference "swift-http-types" */;
+			productName = HTTPTypesFoundation;
+		};
+		58FE3B462E8276D300638515 /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58FE3B3F2E82764900638515 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		58FE3B482E8276D700638515 /* FactoryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58FE3B3F2E82764900638515 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = FactoryKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 58FE3AFA2E81B40000638515 /* Project object */;
+}

@@ -1,0 +1,406 @@
+[
+  {
+    "id": "tvs-apache-rtr-160",
+    "brandId": "tvs",
+    "name": "Apache RTR 160",
+    "segment": "sport",
+    "production": {
+      "startYear": 2007,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2016",
+        "startYear": 2007,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 159.7,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 159.7,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "tvs-apache-rtr-180",
+    "brandId": "tvs",
+    "name": "Apache RTR 180",
+    "segment": "sport",
+    "production": {
+      "startYear": 2009,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-2016",
+        "startYear": 2009,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 177.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 177.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "tvs-apache-rtr-200",
+    "brandId": "tvs",
+    "name": "Apache RTR 200 4V",
+    "segment": "sport",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2019",
+        "startYear": 2016,
+        "endYear": 2019,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 197.8,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Oil",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "BS6 update",
+        "engine": {
+          "displacementCC": 197.8,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Oil",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "tvs-apache-rr-310",
+    "brandId": "tvs",
+    "name": "Apache RR 310",
+    "segment": "sport",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2019",
+        "startYear": 2017,
+        "endYear": 2019,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 312.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "BS6 update",
+        "engine": {
+          "displacementCC": 312.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "tvs-raider-125",
+    "brandId": "tvs",
+    "name": "Raider 125",
+    "segment": "commuter",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 124.8,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "tvs-jupiter",
+    "brandId": "tvs",
+    "name": "Jupiter",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2013,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2016",
+        "startYear": 2013,
+        "endYear": 2016,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 109.7,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "BS4 / BS6",
+        "engine": {
+          "displacementCC": 109.7,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "tvs-ntorq-125",
+    "brandId": "tvs",
+    "name": "NTorq 125",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 124.8,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "BS6",
+        "engine": {
+          "displacementCC": 124.8,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "tvs-xl100",
+    "brandId": "tvs",
+    "name": "XL100",
+    "segment": "moped",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2020",
+        "startYear": 2016,
+        "endYear": 2020,
+        "revision": "Carbureted",
+        "engine": {
+          "displacementCC": 99.7,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Fuel injection",
+        "engine": {
+          "displacementCC": 99.7,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

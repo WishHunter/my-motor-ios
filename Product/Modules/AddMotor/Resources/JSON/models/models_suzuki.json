@@ -1,0 +1,856 @@
+[
+  {
+    "id": "suzuki-vstrom-650",
+    "brandId": "suzuki",
+    "name": "V-Strom 650",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2004,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2004-2011",
+        "startYear": 2004,
+        "endYear": 2011,
+        "revision": "First gen",
+        "engine": {
+          "displacementCC": 645.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2012-2016",
+        "startYear": 2012,
+        "endYear": 2016,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 645.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "Euro 4/5",
+        "engine": {
+          "displacementCC": 645.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-vstrom-1000",
+    "brandId": "suzuki",
+    "name": "V-Strom 1000 / 1050",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2002,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2002-2013",
+        "startYear": 2002,
+        "endYear": 2013,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 996.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2019",
+        "startYear": 2014,
+        "endYear": 2019,
+        "revision": "1000 update",
+        "engine": {
+          "displacementCC": 1037.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "1050",
+        "engine": {
+          "displacementCC": 1037.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-vstrom-250",
+    "brandId": "suzuki",
+    "name": "V-Strom 250",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 248.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gsxr600",
+    "brandId": "suzuki",
+    "name": "GSX-R600",
+    "segment": "sport",
+    "production": {
+      "startYear": 1997,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2010",
+        "startYear": 2000,
+        "endYear": 2010,
+        "revision": "Updates",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2011-2020",
+        "startYear": 2011,
+        "endYear": 2020,
+        "revision": "Modern",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gsxr750",
+    "brandId": "suzuki",
+    "name": "GSX-R750",
+    "segment": "sport",
+    "production": {
+      "startYear": 1985,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2010",
+        "startYear": 2000,
+        "endYear": 2010,
+        "revision": "Updates",
+        "engine": {
+          "displacementCC": 750.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2011-2020",
+        "startYear": 2011,
+        "endYear": 2020,
+        "revision": "Modern",
+        "engine": {
+          "displacementCC": 750.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gsxr1000",
+    "brandId": "suzuki",
+    "name": "GSX-R1000 / GSX-R1000R",
+    "segment": "sport",
+    "production": {
+      "startYear": 2001,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-2004",
+        "startYear": 2001,
+        "endYear": 2004,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 988.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2005-2016",
+        "startYear": 2005,
+        "endYear": 2016,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "Euro 4/5",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-hayabusa",
+    "brandId": "suzuki",
+    "name": "Hayabusa GSX1300R",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 1999,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "1999-2007",
+        "startYear": 1999,
+        "endYear": 2007,
+        "revision": "Gen 1",
+        "engine": {
+          "displacementCC": 1299.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2008-2020",
+        "startYear": 2008,
+        "endYear": 2020,
+        "revision": "Gen 2",
+        "engine": {
+          "displacementCC": 1340.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Gen 3",
+        "engine": {
+          "displacementCC": 1340.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gsx250r",
+    "brandId": "suzuki",
+    "name": "GSX250R",
+    "segment": "sport",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 248.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-sv650",
+    "brandId": "suzuki",
+    "name": "SV650",
+    "segment": "naked",
+    "production": {
+      "startYear": 1999,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2003-2015",
+        "startYear": 2003,
+        "endYear": 2015,
+        "revision": "Gen 2",
+        "engine": {
+          "displacementCC": 645.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2016-…",
+        "startYear": 2016,
+        "endYear": null,
+        "revision": "Gen 3",
+        "engine": {
+          "displacementCC": 645.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-sv1000",
+    "brandId": "suzuki",
+    "name": "SV1000",
+    "segment": "naked",
+    "production": {
+      "startYear": 2003,
+      "endYear": 2007
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2003-2007",
+        "startYear": 2003,
+        "endYear": 2007,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 996.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gsr750",
+    "brandId": "suzuki",
+    "name": "GSR750",
+    "segment": "naked",
+    "production": {
+      "startYear": 2011,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2011-2016",
+        "startYear": 2011,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gsx-s750",
+    "brandId": "suzuki",
+    "name": "GSX-S750",
+    "segment": "naked",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gsx-s1000",
+    "brandId": "suzuki",
+    "name": "GSX-S1000",
+    "segment": "naked",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-boulevard-m109r",
+    "brandId": "suzuki",
+    "name": "Boulevard M109R / Intruder M1800R",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2006,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-…",
+        "startYear": 2006,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1783.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-boulevard-c50",
+    "brandId": "suzuki",
+    "name": "Boulevard C50",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2001,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-…",
+        "startYear": 2001,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 805.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-bandit-650",
+    "brandId": "suzuki",
+    "name": "Bandit 650",
+    "segment": "naked",
+    "production": {
+      "startYear": 2005,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2005-2016",
+        "startYear": 2005,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 656.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-bandit-1250",
+    "brandId": "suzuki",
+    "name": "Bandit 1250",
+    "segment": "naked",
+    "production": {
+      "startYear": 2007,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2016",
+        "startYear": 2007,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1255.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "suzuki-gsx1250fa",
+    "brandId": "suzuki",
+    "name": "GSX1250FA",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2010,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2010-2016",
+        "startYear": 2010,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1255.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

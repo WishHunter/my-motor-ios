@@ -1,0 +1,498 @@
+[
+  {
+    "id": "royalenfield-classic-350",
+    "brandId": "royal-enfield",
+    "name": "Classic 350",
+    "segment": "classic",
+    "production": {
+      "startYear": 2009,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-2020",
+        "startYear": 2009,
+        "endYear": 2020,
+        "revision": "UCE engine",
+        "engine": {
+          "displacementCC": 346.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "J-series",
+        "engine": {
+          "displacementCC": 349.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-classic-500",
+    "brandId": "royal-enfield",
+    "name": "Classic 500",
+    "segment": "classic",
+    "production": {
+      "startYear": 2009,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-2020",
+        "startYear": 2009,
+        "endYear": 2020,
+        "revision": "UCE engine",
+        "engine": {
+          "displacementCC": 499.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-bullet-350",
+    "brandId": "royal-enfield",
+    "name": "Bullet 350",
+    "segment": "classic",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2020",
+        "startYear": 2000,
+        "endYear": 2020,
+        "revision": "UCE engine",
+        "engine": {
+          "displacementCC": 346.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "J-series",
+        "engine": {
+          "displacementCC": 349.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-bullet-500",
+    "brandId": "royal-enfield",
+    "name": "Bullet 500",
+    "segment": "classic",
+    "production": {
+      "startYear": 2000,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2020",
+        "startYear": 2000,
+        "endYear": 2020,
+        "revision": "UCE engine",
+        "engine": {
+          "displacementCC": 499.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-meteor-350",
+    "brandId": "royal-enfield",
+    "name": "Meteor 350",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "J-series",
+        "engine": {
+          "displacementCC": 349.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-thunderbird-350",
+    "brandId": "royal-enfield",
+    "name": "Thunderbird 350 / X",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2002,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2002-2020",
+        "startYear": 2002,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 346.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-thunderbird-500",
+    "brandId": "royal-enfield",
+    "name": "Thunderbird 500 / X",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2002,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2002-2020",
+        "startYear": 2002,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 499.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-himalayan",
+    "brandId": "royal-enfield",
+    "name": "Himalayan",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2020",
+        "startYear": 2016,
+        "endYear": 2020,
+        "revision": "Carbureted / early FI",
+        "engine": {
+          "displacementCC": 411.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "BS6 update",
+        "engine": {
+          "displacementCC": 411.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-himalayan-450",
+    "brandId": "royal-enfield",
+    "name": "Himalayan 450",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2023-…",
+        "startYear": 2023,
+        "endYear": null,
+        "revision": "Sherpa 450 engine",
+        "engine": {
+          "displacementCC": 452.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-scram-411",
+    "brandId": "royal-enfield",
+    "name": "Scram 411",
+    "segment": "scrambler",
+    "production": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "Based on Himalayan",
+        "engine": {
+          "displacementCC": 411.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-interceptor-650",
+    "brandId": "royal-enfield",
+    "name": "Interceptor 650",
+    "segment": "retro",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 648.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air/Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5 update",
+        "engine": {
+          "displacementCC": 648.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air/Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "royalenfield-continental-gt-650",
+    "brandId": "royal-enfield",
+    "name": "Continental GT 650",
+    "segment": "retro",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 648.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air/Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5 update",
+        "engine": {
+          "displacementCC": 648.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air/Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,439 @@
+[
+  {
+    "id": "indian-scout",
+    "brandId": "indian",
+    "name": "Scout",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1133.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 1133.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "indian-scout-bobber",
+    "brandId": "indian",
+    "name": "Scout Bobber",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1133.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 1133.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "indian-scout-sixty",
+    "brandId": "indian",
+    "name": "Scout Sixty",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-…",
+        "startYear": 2016,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "indian-chief",
+    "brandId": "indian",
+    "name": "Chief / Chief Dark Horse",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2014,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2020",
+        "startYear": 2014,
+        "endYear": 2020,
+        "revision": "Thunder Stroke 111",
+        "engine": {
+          "displacementCC": 1811.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Thunder Stroke 111/116",
+        "engine": {
+          "displacementCC": 1890.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "indian-chief-bobber",
+    "brandId": "indian",
+    "name": "Chief Bobber",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Thunder Stroke 111/116",
+        "engine": {
+          "displacementCC": 1890.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "indian-springfield",
+    "brandId": "indian",
+    "name": "Springfield",
+    "segment": "touring",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2020",
+        "startYear": 2016,
+        "endYear": 2020,
+        "revision": "Thunder Stroke 111",
+        "engine": {
+          "displacementCC": 1811.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Thunder Stroke 116",
+        "engine": {
+          "displacementCC": 1890.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "indian-chieftain",
+    "brandId": "indian",
+    "name": "Chieftain",
+    "segment": "touring",
+    "production": {
+      "startYear": 2013,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2020",
+        "startYear": 2013,
+        "endYear": 2020,
+        "revision": "Thunder Stroke 111",
+        "engine": {
+          "displacementCC": 1811.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Thunder Stroke 116",
+        "engine": {
+          "displacementCC": 1890.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "indian-roadmaster",
+    "brandId": "indian",
+    "name": "Roadmaster",
+    "segment": "touring",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Thunder Stroke 111",
+        "engine": {
+          "displacementCC": 1811.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Thunder Stroke 116",
+        "engine": {
+          "displacementCC": 1890.0,
+          "engineType": "V-Twin Thunder Stroke",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "indian-ftr-1200",
+    "brandId": "indian",
+    "name": "FTR 1200",
+    "segment": "naked",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-2020",
+        "startYear": 2019,
+        "endYear": 2020,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1203.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5 update",
+        "engine": {
+          "displacementCC": 1203.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

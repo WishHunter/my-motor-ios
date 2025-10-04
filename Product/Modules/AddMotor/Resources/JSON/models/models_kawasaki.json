@@ -1,0 +1,996 @@
+[
+  {
+    "id": "kawasaki-versys-650",
+    "brandId": "kawasaki",
+    "name": "Versys 650",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2007,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2014",
+        "startYear": 2007,
+        "endYear": 2014,
+        "revision": "First gen",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2015-2021",
+        "startYear": 2015,
+        "endYear": 2021,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-versys-1000",
+    "brandId": "kawasaki",
+    "name": "Versys 1000",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2012,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2012-2014",
+        "startYear": 2012,
+        "endYear": 2014,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 1043.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2015-2018",
+        "startYear": 2015,
+        "endYear": 2018,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1043.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "Current",
+        "engine": {
+          "displacementCC": 1043.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-klr650",
+    "brandId": "kawasaki",
+    "name": "KLR650",
+    "segment": "dualsport",
+    "production": {
+      "startYear": 1987,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2018",
+        "startYear": 2008,
+        "endYear": 2018,
+        "revision": "Gen 2",
+        "engine": {
+          "displacementCC": 651.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "Gen 3",
+        "engine": {
+          "displacementCC": 652.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-ninja-300",
+    "brandId": "kawasaki",
+    "name": "Ninja 300",
+    "segment": "sport",
+    "production": {
+      "startYear": 2013,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2017",
+        "startYear": 2013,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 296.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-ninja-400",
+    "brandId": "kawasaki",
+    "name": "Ninja 400",
+    "segment": "sport",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 399.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 399.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-ninja-650",
+    "brandId": "kawasaki",
+    "name": "Ninja 650",
+    "segment": "sport",
+    "production": {
+      "startYear": 2006,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2011",
+        "startYear": 2006,
+        "endYear": 2011,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2012-2016",
+        "startYear": 2012,
+        "endYear": 2016,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "Modern",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-ninja-zx6r",
+    "brandId": "kawasaki",
+    "name": "Ninja ZX-6R",
+    "segment": "sport",
+    "production": {
+      "startYear": 1995,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2002",
+        "startYear": 2000,
+        "endYear": 2002,
+        "revision": "600cc",
+        "engine": {
+          "displacementCC": 599.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2003-2006",
+        "startYear": 2003,
+        "endYear": 2006,
+        "revision": "636cc",
+        "engine": {
+          "displacementCC": 636.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "Euro 4/5",
+        "engine": {
+          "displacementCC": 636.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-ninja-zx10r",
+    "brandId": "kawasaki",
+    "name": "Ninja ZX-10R",
+    "segment": "sport",
+    "production": {
+      "startYear": 2004,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2004-2007",
+        "startYear": 2004,
+        "endYear": 2007,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2008-2015",
+        "startYear": 2008,
+        "endYear": 2015,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2016-…",
+        "startYear": 2016,
+        "endYear": null,
+        "revision": "Euro 4/5",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-ninja-h2",
+    "brandId": "kawasaki",
+    "name": "Ninja H2",
+    "segment": "sport",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4 supercharged",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4 supercharged",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-z650",
+    "brandId": "kawasaki",
+    "name": "Z650",
+    "segment": "naked",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2019",
+        "startYear": 2017,
+        "endYear": 2019,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-z900",
+    "brandId": "kawasaki",
+    "name": "Z900",
+    "segment": "naked",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2019",
+        "startYear": 2017,
+        "endYear": 2019,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 948.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 948.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-z1000",
+    "brandId": "kawasaki",
+    "name": "Z1000",
+    "segment": "naked",
+    "production": {
+      "startYear": 2003,
+      "endYear": 2021
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2003-2006",
+        "startYear": 2003,
+        "endYear": 2006,
+        "revision": "First gen",
+        "engine": {
+          "displacementCC": 953.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2007-2013",
+        "startYear": 2007,
+        "endYear": 2013,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1043.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2021",
+        "startYear": 2014,
+        "endYear": 2021,
+        "revision": "Final",
+        "engine": {
+          "displacementCC": 1043.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-z125",
+    "brandId": "kawasaki",
+    "name": "Z125",
+    "segment": "naked",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 125.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-vulcan-s",
+    "brandId": "kawasaki",
+    "name": "Vulcan S",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 649.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-vn900",
+    "brandId": "kawasaki",
+    "name": "Vulcan 900",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2006,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-…",
+        "startYear": 2006,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 903.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-vn1700",
+    "brandId": "kawasaki",
+    "name": "Vulcan 1700",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2009,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-…",
+        "startYear": 2009,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1700.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-gtr1400",
+    "brandId": "kawasaki",
+    "name": "GTR1400 / Concours 14",
+    "segment": "touring",
+    "production": {
+      "startYear": 2007,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2009",
+        "startYear": 2007,
+        "endYear": 2009,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 1352.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2010-2017",
+        "startYear": 2010,
+        "endYear": 2017,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1352.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "kawasaki-zzr1400",
+    "brandId": "kawasaki",
+    "name": "ZZR1400 / Ninja ZX-14R",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2006,
+      "endYear": 2022
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2011",
+        "startYear": 2006,
+        "endYear": 2011,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1352.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2012-2022",
+        "startYear": 2012,
+        "endYear": 2022,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1441.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

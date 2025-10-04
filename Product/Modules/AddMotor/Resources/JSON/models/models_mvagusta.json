@@ -1,0 +1,538 @@
+[
+  {
+    "id": "mv-f4-750",
+    "brandId": "mv-agusta",
+    "name": "F4 750",
+    "segment": "sport",
+    "production": {
+      "startYear": 1999,
+      "endYear": 2004
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2004",
+        "startYear": 2000,
+        "endYear": 2004,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-f4-1000",
+    "brandId": "mv-agusta",
+    "name": "F4 1000",
+    "segment": "sport",
+    "production": {
+      "startYear": 2005,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2005-2009",
+        "startYear": 2005,
+        "endYear": 2009,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2010-2018",
+        "startYear": 2010,
+        "endYear": 2018,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "Euro 4/5",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-f3-675",
+    "brandId": "mv-agusta",
+    "name": "F3 675",
+    "segment": "sport",
+    "production": {
+      "startYear": 2012,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2012-2020",
+        "startYear": 2012,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 675.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 675.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-f3-800",
+    "brandId": "mv-agusta",
+    "name": "F3 800",
+    "segment": "sport",
+    "production": {
+      "startYear": 2013,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2020",
+        "startYear": 2013,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-brutale-675",
+    "brandId": "mv-agusta",
+    "name": "Brutale 675",
+    "segment": "naked",
+    "production": {
+      "startYear": 2012,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2012-2016",
+        "startYear": 2012,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 675.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-brutale-800",
+    "brandId": "mv-agusta",
+    "name": "Brutale 800",
+    "segment": "naked",
+    "production": {
+      "startYear": 2013,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2020",
+        "startYear": 2013,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-brutale-1090",
+    "brandId": "mv-agusta",
+    "name": "Brutale 1090",
+    "segment": "naked",
+    "production": {
+      "startYear": 2009,
+      "endYear": 2018
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-2018",
+        "startYear": 2009,
+        "endYear": 2018,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1078.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-brutale-920",
+    "brandId": "mv-agusta",
+    "name": "Brutale 920",
+    "segment": "naked",
+    "production": {
+      "startYear": 2011,
+      "endYear": 2013
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2011-2013",
+        "startYear": 2011,
+        "endYear": 2013,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 921.0,
+          "engineType": "Inline-4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-dragster-800",
+    "brandId": "mv-agusta",
+    "name": "Dragster 800",
+    "segment": "naked",
+    "production": {
+      "startYear": 2014,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2020",
+        "startYear": 2014,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-rivale-800",
+    "brandId": "mv-agusta",
+    "name": "Rivale 800",
+    "segment": "motard",
+    "production": {
+      "startYear": 2013,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2017",
+        "startYear": 2013,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-stradale-800",
+    "brandId": "mv-agusta",
+    "name": "Stradale 800",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2015,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2017",
+        "startYear": 2015,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "mv-turismo-veloce-800",
+    "brandId": "mv-agusta",
+    "name": "Turismo Veloce 800",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 798.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

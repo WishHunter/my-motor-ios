@@ -1,0 +1,663 @@
+[
+  {
+    "id": "aprilia-capponord-1000",
+    "brandId": "aprilia",
+    "name": "Caponord 1000",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2001,
+      "endYear": 2007
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-2007",
+        "startYear": 2001,
+        "endYear": 2007,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-capponord-1200",
+    "brandId": "aprilia",
+    "name": "Caponord 1200",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2013,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2016",
+        "startYear": 2013,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1197.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-tuareg-660",
+    "brandId": "aprilia",
+    "name": "Tuareg 660",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 659.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-rsv-mille",
+    "brandId": "aprilia",
+    "name": "RSV Mille / RSV 1000 R",
+    "segment": "sport",
+    "production": {
+      "startYear": 1998,
+      "endYear": 2010
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2003",
+        "startYear": 2000,
+        "endYear": 2003,
+        "revision": "Early 2000s",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "V-Twin Rotax",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2004-2010",
+        "startYear": 2004,
+        "endYear": 2010,
+        "revision": "RSV 1000 R",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "V-Twin Rotax",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-rsv4",
+    "brandId": "aprilia",
+    "name": "RSV4",
+    "segment": "sport",
+    "production": {
+      "startYear": 2009,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-2014",
+        "startYear": 2009,
+        "endYear": 2014,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 1099.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-rs660",
+    "brandId": "aprilia",
+    "name": "RS 660",
+    "segment": "sport",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 659.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-rs250",
+    "brandId": "aprilia",
+    "name": "RS 250",
+    "segment": "sport",
+    "production": {
+      "startYear": 1994,
+      "endYear": 2004
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2004",
+        "startYear": 2000,
+        "endYear": 2004,
+        "revision": "Later years",
+        "engine": {
+          "displacementCC": 249.0,
+          "engineType": "2-stroke Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-shiver-750",
+    "brandId": "aprilia",
+    "name": "Shiver 750",
+    "segment": "naked",
+    "production": {
+      "startYear": 2007,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2016",
+        "startYear": 2007,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-shiver-900",
+    "brandId": "aprilia",
+    "name": "Shiver 900",
+    "segment": "naked",
+    "production": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2020",
+        "startYear": 2017,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 896.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-dorsoduro-750",
+    "brandId": "aprilia",
+    "name": "Dorsoduro 750",
+    "segment": "motard",
+    "production": {
+      "startYear": 2008,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2016",
+        "startYear": 2008,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-dorsoduro-900",
+    "brandId": "aprilia",
+    "name": "Dorsoduro 900",
+    "segment": "motard",
+    "production": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2020",
+        "startYear": 2017,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 896.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-tuono-1000",
+    "brandId": "aprilia",
+    "name": "Tuono 1000",
+    "segment": "naked",
+    "production": {
+      "startYear": 2002,
+      "endYear": 2010
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2002-2010",
+        "startYear": 2002,
+        "endYear": 2010,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 998.0,
+          "engineType": "V-Twin Rotax",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-tuono-v4",
+    "brandId": "aprilia",
+    "name": "Tuono V4",
+    "segment": "naked",
+    "production": {
+      "startYear": 2011,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2011-2014",
+        "startYear": 2011,
+        "endYear": 2014,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 999.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1077.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 1077.0,
+          "engineType": "V4",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-mana-850",
+    "brandId": "aprilia",
+    "name": "Mana 850",
+    "segment": "naked",
+    "production": {
+      "startYear": 2007,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2016",
+        "startYear": 2007,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 839.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-pegaso-650",
+    "brandId": "aprilia",
+    "name": "Pegaso 650",
+    "segment": "dualsport",
+    "production": {
+      "startYear": 1992,
+      "endYear": 2009
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2009",
+        "startYear": 2000,
+        "endYear": 2009,
+        "revision": "Later years",
+        "engine": {
+          "displacementCC": 659.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-sxv-550",
+    "brandId": "aprilia",
+    "name": "SXV 550",
+    "segment": "motard",
+    "production": {
+      "startYear": 2006,
+      "endYear": 2011
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2011",
+        "startYear": 2006,
+        "endYear": 2011,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 549.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "aprilia-habana-125",
+    "brandId": "aprilia",
+    "name": "Habana 125 / Mojito 125",
+    "segment": "scooter",
+    "production": {
+      "startYear": 1999,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2016",
+        "startYear": 2000,
+        "endYear": 2016,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 124.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

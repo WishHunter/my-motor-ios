@@ -1,0 +1,273 @@
+[
+  {
+    "id": "husqvarna-vitpilen-401",
+    "brandId": "husqvarna",
+    "name": "Vitpilen 401",
+    "segment": "naked",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2023",
+        "startYear": 2018,
+        "endYear": 2023,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 373.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2024-…",
+        "startYear": 2024,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 399.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "husqvarna-svartpilen-401",
+    "brandId": "husqvarna",
+    "name": "Svartpilen 401",
+    "segment": "scrambler",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2023",
+        "startYear": 2018,
+        "endYear": 2023,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 373.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2024-…",
+        "startYear": 2024,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 399.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "husqvarna-vitpilen-701",
+    "brandId": "husqvarna",
+    "name": "Vitpilen 701",
+    "segment": "naked",
+    "production": {
+      "startYear": 2018,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 692.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "husqvarna-svartpilen-701",
+    "brandId": "husqvarna",
+    "name": "Svartpilen 701",
+    "segment": "scrambler",
+    "production": {
+      "startYear": 2018,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 692.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "husqvarna-norden-901",
+    "brandId": "husqvarna",
+    "name": "Norden 901",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 889.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "husqvarna-701-supermoto",
+    "brandId": "husqvarna",
+    "name": "701 Supermoto",
+    "segment": "supermoto",
+    "production": {
+      "startYear": 2015,
+      "endYear": 2023
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2023",
+        "startYear": 2015,
+        "endYear": 2023,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 692.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "husqvarna-701-enduro",
+    "brandId": "husqvarna",
+    "name": "701 Enduro",
+    "segment": "enduro",
+    "production": {
+      "startYear": 2015,
+      "endYear": 2023
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2023",
+        "startYear": 2015,
+        "endYear": 2023,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 692.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

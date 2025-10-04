@@ -1,0 +1,267 @@
+[
+  {
+    "id": "ural-retro",
+    "brandId": "ural",
+    "name": "Retro",
+    "segment": "sidecar",
+    "production": {
+      "startYear": 2000,
+      "endYear": 2019
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2013",
+        "startYear": 2000,
+        "endYear": 2013,
+        "revision": "Carbureted",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2019",
+        "startYear": 2014,
+        "endYear": 2019,
+        "revision": "Fuel injection",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ural-tourist",
+    "brandId": "ural",
+    "name": "Tourist",
+    "segment": "sidecar",
+    "production": {
+      "startYear": 2000,
+      "endYear": 2019
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2013",
+        "startYear": 2000,
+        "endYear": 2013,
+        "revision": "Carbureted",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2019",
+        "startYear": 2014,
+        "endYear": 2019,
+        "revision": "Fuel injection",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ural-patrol",
+    "brandId": "ural",
+    "name": "Patrol",
+    "segment": "sidecar",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2013",
+        "startYear": 2000,
+        "endYear": 2013,
+        "revision": "Carbureted",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-…",
+        "startYear": 2014,
+        "endYear": null,
+        "revision": "Fuel injection",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ural-gear-up",
+    "brandId": "ural",
+    "name": "Gear Up",
+    "segment": "sidecar",
+    "production": {
+      "startYear": 2000,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2013",
+        "startYear": 2000,
+        "endYear": 2013,
+        "revision": "Carbureted",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-…",
+        "startYear": 2014,
+        "endYear": null,
+        "revision": "Fuel injection",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ural-ct",
+    "brandId": "ural",
+    "name": "cT",
+    "segment": "sidecar",
+    "production": {
+      "startYear": 2015,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2018",
+        "startYear": 2015,
+        "endYear": 2018,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "Updated brakes, FI",
+        "engine": {
+          "displacementCC": 749.0,
+          "engineType": "Flat Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

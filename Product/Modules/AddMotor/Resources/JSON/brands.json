@@ -1,0 +1,127 @@
+[
+  {
+    "id": "honda",
+    "name": "Honda",
+    "country": "japan"
+  },
+  {
+    "id": "yamaha",
+    "name": "Yamaha",
+    "country": "japan"
+  },
+  {
+    "id": "kawasaki",
+    "name": "Kawasaki",
+    "country": "japan"
+  },
+  {
+    "id": "suzuki",
+    "name": "Suzuki",
+    "country": "japan"
+  },
+  {
+    "id": "ducati",
+    "name": "Ducati",
+    "country": "italy"
+  },
+  {
+    "id": "aprilia",
+    "name": "Aprilia",
+    "country": "italy"
+  },
+  {
+    "id": "motoguzzi",
+    "name": "Moto Guzzi",
+    "country": "italy"
+  },
+  {
+    "id": "mvagusta",
+    "name": "MV Agusta",
+    "country": "italy"
+  },
+  {
+    "id": "benelli",
+    "name": "Benelli",
+    "country": "italy"
+  },
+  {
+    "id": "piaggio",
+    "name": "Piaggio",
+    "country": "italy"
+  },
+  {
+    "id": "vespa",
+    "name": "Vespa",
+    "country": "italy"
+  },
+  {
+    "id": "bmw",
+    "name": "BMW",
+    "country": "germany"
+  },
+  {
+    "id": "harley",
+    "name": "Harley-Davidson",
+    "country": "usa"
+  },
+  {
+    "id": "indian",
+    "name": "Indian",
+    "country": "usa"
+  },
+  {
+    "id": "triumph",
+    "name": "Triumph",
+    "country": "uk"
+  },
+  {
+    "id": "royalenfield",
+    "name": "Royal Enfield",
+    "country": "uk"
+  },
+  {
+    "id": "ktm",
+    "name": "KTM",
+    "country": "austria"
+  },
+  {
+    "id": "husqvarna",
+    "name": "Husqvarna",
+    "country": "sweden"
+  },
+  {
+    "id": "jawa",
+    "name": "Jawa",
+    "country": "czech"
+  },
+  {
+    "id": "gasgas",
+    "name": "GasGas",
+    "country": "spain"
+  },
+  {
+    "id": "bajaj",
+    "name": "Bajaj",
+    "country": "india"
+  },
+  {
+    "id": "tvs",
+    "name": "TVS",
+    "country": "india"
+  },
+  {
+    "id": "cfmoto",
+    "name": "CFMoto",
+    "country": "china"
+  },
+  {
+    "id": "kymco",
+    "name": "Kymco",
+    "country": "taiwan"
+  },
+  {
+    "id": "ural",
+    "name": "Ural",
+    "country": "russia"
+  }
+]

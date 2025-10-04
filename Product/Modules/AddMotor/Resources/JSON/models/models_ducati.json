@@ -1,0 +1,749 @@
+[
+  {
+    "id": "ducati-multistrada-950",
+    "brandId": "ducati",
+    "name": "Multistrada 950 / V2",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2021",
+        "startYear": 2017,
+        "endYear": 2021,
+        "revision": "950",
+        "engine": {
+          "displacementCC": 937.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "V2",
+        "engine": {
+          "displacementCC": 937.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-multistrada-1200",
+    "brandId": "ducati",
+    "name": "Multistrada 1200 / 1260 / V4",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2010,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2010-2014",
+        "startYear": 2010,
+        "endYear": 2014,
+        "revision": "1200",
+        "engine": {
+          "displacementCC": 1198.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2015-2020",
+        "startYear": 2015,
+        "endYear": 2020,
+        "revision": "1260",
+        "engine": {
+          "displacementCC": 1262.0,
+          "engineType": "V-Twin Testastretta DVT",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "V4",
+        "engine": {
+          "displacementCC": 1158.0,
+          "engineType": "V4 Granturismo",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-monster-696",
+    "brandId": "ducati",
+    "name": "Monster 696",
+    "segment": "naked",
+    "production": {
+      "startYear": 2008,
+      "endYear": 2014
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2014",
+        "startYear": 2008,
+        "endYear": 2014,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 696.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-monster-797",
+    "brandId": "ducati",
+    "name": "Monster 797",
+    "segment": "naked",
+    "production": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2020",
+        "startYear": 2017,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 803.0,
+          "engineType": "V-Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-monster-821",
+    "brandId": "ducati",
+    "name": "Monster 821",
+    "segment": "naked",
+    "production": {
+      "startYear": 2014,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2020",
+        "startYear": 2014,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 821.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-monster-1200",
+    "brandId": "ducati",
+    "name": "Monster 1200",
+    "segment": "naked",
+    "production": {
+      "startYear": 2014,
+      "endYear": 2021
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2021",
+        "startYear": 2014,
+        "endYear": 2021,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1198.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-monster-937",
+    "brandId": "ducati",
+    "name": "Monster (937)",
+    "segment": "naked",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Modern",
+        "engine": {
+          "displacementCC": 937.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-panigale-899",
+    "brandId": "ducati",
+    "name": "Panigale 899",
+    "segment": "sport",
+    "production": {
+      "startYear": 2013,
+      "endYear": 2015
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2015",
+        "startYear": 2013,
+        "endYear": 2015,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 898.0,
+          "engineType": "V-Twin Superquadro",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-panigale-959",
+    "brandId": "ducati",
+    "name": "Panigale 959",
+    "segment": "sport",
+    "production": {
+      "startYear": 2016,
+      "endYear": 2019
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2019",
+        "startYear": 2016,
+        "endYear": 2019,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 955.0,
+          "engineType": "V-Twin Superquadro",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-panigale-v2",
+    "brandId": "ducati",
+    "name": "Panigale V2",
+    "segment": "sport",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 955.0,
+          "engineType": "V-Twin Superquadro",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-panigale-1199",
+    "brandId": "ducati",
+    "name": "Panigale 1199",
+    "segment": "sport",
+    "production": {
+      "startYear": 2012,
+      "endYear": 2014
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2012-2014",
+        "startYear": 2012,
+        "endYear": 2014,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1199.0,
+          "engineType": "V-Twin Superquadro",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-panigale-1299",
+    "brandId": "ducati",
+    "name": "Panigale 1299",
+    "segment": "sport",
+    "production": {
+      "startYear": 2015,
+      "endYear": 2018
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2015-2018",
+        "startYear": 2015,
+        "endYear": 2018,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1285.0,
+          "engineType": "V-Twin Superquadro",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-panigale-v4",
+    "brandId": "ducati",
+    "name": "Panigale V4",
+    "segment": "sport",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-2020",
+        "startYear": 2018,
+        "endYear": 2020,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 1103.0,
+          "engineType": "V4 Desmosedici Stradale",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1103.0,
+          "engineType": "V4 Desmosedici Stradale",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-supersport-939",
+    "brandId": "ducati",
+    "name": "SuperSport 939",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2017,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2020",
+        "startYear": 2017,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 937.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-supersport-950",
+    "brandId": "ducati",
+    "name": "SuperSport 950",
+    "segment": "sport-touring",
+    "production": {
+      "startYear": 2021,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 937.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-streetfighter-1098",
+    "brandId": "ducati",
+    "name": "Streetfighter 1098",
+    "segment": "naked",
+    "production": {
+      "startYear": 2009,
+      "endYear": 2015
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2009-2015",
+        "startYear": 2009,
+        "endYear": 2015,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1099.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-streetfighter-v4",
+    "brandId": "ducati",
+    "name": "Streetfighter V4",
+    "segment": "naked",
+    "production": {
+      "startYear": 2020,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2020-…",
+        "startYear": 2020,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1103.0,
+          "engineType": "V4 Desmosedici Stradale",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-hypermotard-950",
+    "brandId": "ducati",
+    "name": "Hypermotard 950",
+    "segment": "motard",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 937.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "ducati-diavel-1200",
+    "brandId": "ducati",
+    "name": "Diavel 1200 / 1260 / V4",
+    "segment": "power-cruiser",
+    "production": {
+      "startYear": 2011,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2011-2018",
+        "startYear": 2011,
+        "endYear": 2018,
+        "revision": "1200",
+        "engine": {
+          "displacementCC": 1198.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2019-2022",
+        "startYear": 2019,
+        "endYear": 2022,
+        "revision": "1260",
+        "engine": {
+          "displacementCC": 1262.0,
+          "engineType": "V-Twin Testastretta",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2023-…",
+        "startYear": 2023,
+        "endYear": null,
+        "revision": "V4",
+        "engine": {
+          "displacementCC": 1158.0,
+          "engineType": "V4 Granturismo",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

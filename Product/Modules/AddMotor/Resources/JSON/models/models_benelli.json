@@ -1,0 +1,504 @@
+[
+  {
+    "id": "benelli-trek-1130",
+    "brandId": "benelli",
+    "name": "Tornado TreK 1130",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2005,
+      "endYear": 2012
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2005-2012",
+        "startYear": 2005,
+        "endYear": 2012,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1131.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-trk-502",
+    "brandId": "benelli",
+    "name": "TRK 502",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2020",
+        "startYear": 2017,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 500.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 500.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-trk-702",
+    "brandId": "benelli",
+    "name": "TRK 702",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2023-…",
+        "startYear": 2023,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 698.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-trk-800",
+    "brandId": "benelli",
+    "name": "TRK 800",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2023,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2023-…",
+        "startYear": 2023,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 754.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-tnt-1130",
+    "brandId": "benelli",
+    "name": "TNT 1130",
+    "segment": "naked",
+    "production": {
+      "startYear": 2004,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2004-2017",
+        "startYear": 2004,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1131.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-tnt-899",
+    "brandId": "benelli",
+    "name": "TNT 899",
+    "segment": "naked",
+    "production": {
+      "startYear": 2008,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2017",
+        "startYear": 2008,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 898.0,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-302s",
+    "brandId": "benelli",
+    "name": "302S",
+    "segment": "naked",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 300.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-leoncino-500",
+    "brandId": "benelli",
+    "name": "Leoncino 500",
+    "segment": "retro",
+    "production": {
+      "startYear": 2017,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2017-2020",
+        "startYear": 2017,
+        "endYear": 2020,
+        "revision": "Euro 4",
+        "engine": {
+          "displacementCC": 500.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 500.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-leoncino-800",
+    "brandId": "benelli",
+    "name": "Leoncino 800",
+    "segment": "retro",
+    "production": {
+      "startYear": 2022,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2022-…",
+        "startYear": 2022,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 754.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-752s",
+    "brandId": "benelli",
+    "name": "752S",
+    "segment": "naked",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 754.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-tornado-900",
+    "brandId": "benelli",
+    "name": "Tornado Tre 900 / 1130",
+    "segment": "sport",
+    "production": {
+      "startYear": 2002,
+      "endYear": 2012
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2002-2012",
+        "startYear": 2002,
+        "endYear": 2012,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Inline-3",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-bn-125",
+    "brandId": "benelli",
+    "name": "BN 125",
+    "segment": "naked",
+    "production": {
+      "startYear": 2018,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2018-…",
+        "startYear": 2018,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 124.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-bn-302",
+    "brandId": "benelli",
+    "name": "BN 302",
+    "segment": "naked",
+    "production": {
+      "startYear": 2014,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2014-2017",
+        "startYear": 2014,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 300.0,
+          "engineType": "Parallel Twin",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "benelli-imperiale-400",
+    "brandId": "benelli",
+    "name": "Imperiale 400",
+    "segment": "retro",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-…",
+        "startYear": 2019,
+        "endYear": null,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 373.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

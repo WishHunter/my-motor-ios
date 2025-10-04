@@ -1,0 +1,439 @@
+[
+  {
+    "id": "guzzi-v7-classic",
+    "brandId": "moto-guzzi",
+    "name": "V7 Classic / Stone / Special",
+    "segment": "retro",
+    "production": {
+      "startYear": 2008,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2012",
+        "startYear": 2008,
+        "endYear": 2012,
+        "revision": "750cc",
+        "engine": {
+          "displacementCC": 744.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2013-2020",
+        "startYear": 2013,
+        "endYear": 2020,
+        "revision": "V7 II / III",
+        "engine": {
+          "displacementCC": 744.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "V7 850",
+        "engine": {
+          "displacementCC": 853.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "guzzi-v9",
+    "brandId": "moto-guzzi",
+    "name": "V9 Roamer / Bobber",
+    "segment": "retro",
+    "production": {
+      "startYear": 2016,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2020",
+        "startYear": 2016,
+        "endYear": 2020,
+        "revision": "850",
+        "engine": {
+          "displacementCC": 853.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 853.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "guzzi-california-1400",
+    "brandId": "moto-guzzi",
+    "name": "California 1400",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2013,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2013-2020",
+        "startYear": 2013,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1380.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "guzzi-mg-01",
+    "brandId": "moto-guzzi",
+    "name": "MGX-21 Flying Fortress",
+    "segment": "cruiser",
+    "production": {
+      "startYear": 2016,
+      "endYear": 2020
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2016-2020",
+        "startYear": 2016,
+        "endYear": 2020,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": 1380.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "guzzi-stelvio-1200",
+    "brandId": "moto-guzzi",
+    "name": "Stelvio 1200",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2007,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2007-2011",
+        "startYear": 2007,
+        "endYear": 2011,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": 1151.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2012-2016",
+        "startYear": 2012,
+        "endYear": 2016,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": 1151.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "guzzi-v85tt",
+    "brandId": "moto-guzzi",
+    "name": "V85 TT",
+    "segment": "adventure",
+    "production": {
+      "startYear": 2019,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2019-2020",
+        "startYear": 2019,
+        "endYear": 2020,
+        "revision": "Launch",
+        "engine": {
+          "displacementCC": 853.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": 853.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "guzzi-griso-1100",
+    "brandId": "moto-guzzi",
+    "name": "Griso 1100 / 1200",
+    "segment": "naked",
+    "production": {
+      "startYear": 2005,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2005-2008",
+        "startYear": 2005,
+        "endYear": 2008,
+        "revision": "1100",
+        "engine": {
+          "displacementCC": 1064.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2009-2016",
+        "startYear": 2009,
+        "endYear": 2016,
+        "revision": "1200",
+        "engine": {
+          "displacementCC": 1151.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "guzzi-breva-750",
+    "brandId": "moto-guzzi",
+    "name": "Breva 750 / 1100 / 1200",
+    "segment": "naked",
+    "production": {
+      "startYear": 2003,
+      "endYear": 2010
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2003-2010",
+        "startYear": 2003,
+        "endYear": 2010,
+        "revision": "Various",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "guzzi-norge-1200",
+    "brandId": "moto-guzzi",
+    "name": "Norge 1200 / 8V GT",
+    "segment": "touring",
+    "production": {
+      "startYear": 2006,
+      "endYear": 2016
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2010",
+        "startYear": 2006,
+        "endYear": 2010,
+        "revision": "1200",
+        "engine": {
+          "displacementCC": 1151.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2011-2016",
+        "startYear": 2011,
+        "endYear": 2016,
+        "revision": "1200 8V",
+        "engine": {
+          "displacementCC": 1151.0,
+          "engineType": "V-Twin transverse",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]

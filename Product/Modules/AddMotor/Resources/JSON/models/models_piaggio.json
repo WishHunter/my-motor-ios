@@ -1,0 +1,479 @@
+[
+  {
+    "id": "piaggio-zip-50",
+    "brandId": "piaggio",
+    "name": "Zip 50",
+    "segment": "scooter",
+    "production": {
+      "startYear": 1992,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2016",
+        "startYear": 2000,
+        "endYear": 2016,
+        "revision": "Earlier",
+        "engine": {
+          "displacementCC": 49.0,
+          "engineType": "Single 2T/4T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "Euro 4/5",
+        "engine": {
+          "displacementCC": 49.0,
+          "engineType": "Single 4T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "piaggio-typhoon-50",
+    "brandId": "piaggio",
+    "name": "Typhoon 50",
+    "segment": "scooter",
+    "production": {
+      "startYear": 1993,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2010",
+        "startYear": 2000,
+        "endYear": 2010,
+        "revision": "Earlier",
+        "engine": {
+          "displacementCC": 49.0,
+          "engineType": "Single 2T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2011-…",
+        "startYear": 2011,
+        "endYear": null,
+        "revision": "Modern",
+        "engine": {
+          "displacementCC": 49.0,
+          "engineType": "Single 4T",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "piaggio-liberty-50",
+    "brandId": "piaggio",
+    "name": "Liberty 50 / 125 / 150",
+    "segment": "scooter",
+    "production": {
+      "startYear": 1997,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2016",
+        "startYear": 2000,
+        "endYear": 2016,
+        "revision": "Earlier",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2017-…",
+        "startYear": 2017,
+        "endYear": null,
+        "revision": "Euro 4/5",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "piaggio-fly-50",
+    "brandId": "piaggio",
+    "name": "Fly 50 / 125 / 150",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2004,
+      "endYear": 2017
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2004-2017",
+        "startYear": 2004,
+        "endYear": 2017,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "piaggio-beverly-300",
+    "brandId": "piaggio",
+    "name": "Beverly 300 / 350 / 400",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2001,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2001-2010",
+        "startYear": 2001,
+        "endYear": 2010,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2011-2020",
+        "startYear": 2011,
+        "endYear": 2020,
+        "revision": "350",
+        "engine": {
+          "displacementCC": 330.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "400 HPE",
+        "engine": {
+          "displacementCC": 399.0,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "piaggio-x9",
+    "brandId": "piaggio",
+    "name": "X9 125 / 250 / 500",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2000,
+      "endYear": 2007
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2007",
+        "startYear": 2000,
+        "endYear": 2007,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "piaggio-xevo",
+    "brandId": "piaggio",
+    "name": "Xevo 125 / 250 / 400",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2008,
+      "endYear": 2013
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2008-2013",
+        "startYear": 2008,
+        "endYear": 2013,
+        "revision": "All years",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "piaggio-mp3",
+    "brandId": "piaggio",
+    "name": "MP3 250 / 300 / 400 / 500",
+    "segment": "scooter",
+    "production": {
+      "startYear": 2006,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2006-2013",
+        "startYear": 2006,
+        "endYear": 2013,
+        "revision": "Early",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2020",
+        "startYear": 2014,
+        "endYear": 2020,
+        "revision": "Update",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Euro 5",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Liquid",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  },
+  {
+    "id": "piaggio-vespa-et4",
+    "brandId": "piaggio",
+    "name": "Vespa ET4 / LX / Primavera / GTS",
+    "segment": "scooter",
+    "production": {
+      "startYear": 1996,
+      "endYear": null
+    },
+    "notes": null,
+    "periodSpecs": [
+      {
+        "id": "2000-2013",
+        "startYear": 2000,
+        "endYear": 2013,
+        "revision": "LX / GTS early",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2014-2020",
+        "startYear": 2014,
+        "endYear": 2020,
+        "revision": "Primavera / GTS update",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      },
+      {
+        "id": "2021-…",
+        "startYear": 2021,
+        "endYear": null,
+        "revision": "Modern Euro 5",
+        "engine": {
+          "displacementCC": null,
+          "engineType": "Single iGet",
+          "powerHP": null,
+          "powerKW": null,
+          "torqueNm": null,
+          "coolingSystem": "Air",
+          "starter": "Electric",
+          "emissionStandard": null
+        },
+        "transmission": null,
+        "chassis": null,
+        "dimensions": null,
+        "equipment": null
+      }
+    ]
+  }
+]
