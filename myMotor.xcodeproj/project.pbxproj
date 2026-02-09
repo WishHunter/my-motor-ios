@@ -11,6 +11,8 @@
 		584511DC2EAF6EFE00441C9B /* AddService+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584511DB2EAF6EF700441C9B /* AddService+Model.swift */; };
 		584511E02ED0B35200441C9B /* ServiceList+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584511DF2ED0B34E00441C9B /* ServiceList+View.swift */; };
 		584511E22ED0B35A00441C9B /* ServiceList+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584511E12ED0B35600441C9B /* ServiceList+Model.swift */; };
+		588C21022F3A067E0068FC6F /* ServiceReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C21012F3A067E0068FC6F /* ServiceReminderManager.swift */; };
+		588C21042F3A068A0068FC6F /* ServiceTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C21032F3A068A0068FC6F /* ServiceTemplate.swift */; };
 		58B297B62E92F63800AFAE57 /* ServiceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B297B52E92F63000AFAE57 /* ServiceInfo.swift */; };
 		58B297B82E92F87800AFAE57 /* ServiceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B297B72E92F87000AFAE57 /* ServiceSession.swift */; };
 		58FE3B062E81B40100638515 /* myMotorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B052E81B40100638515 /* myMotorApp.swift */; };
@@ -87,6 +89,8 @@
 		584511DB2EAF6EF700441C9B /* AddService+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddService+Model.swift"; sourceTree = "<group>"; };
 		584511DF2ED0B34E00441C9B /* ServiceList+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceList+View.swift"; sourceTree = "<group>"; };
 		584511E12ED0B35600441C9B /* ServiceList+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceList+Model.swift"; sourceTree = "<group>"; };
+		588C21012F3A067E0068FC6F /* ServiceReminderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceReminderManager.swift; sourceTree = "<group>"; };
+		588C21032F3A068A0068FC6F /* ServiceTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTemplate.swift; sourceTree = "<group>"; };
 		58B297B52E92F63000AFAE57 /* ServiceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInfo.swift; sourceTree = "<group>"; };
 		58B297B72E92F87000AFAE57 /* ServiceSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceSession.swift; sourceTree = "<group>"; };
 		58FE3B022E81B40100638515 /* myMotor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMotor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +203,8 @@
 		58B297B42E92F60400AFAE57 /* ServiceSession */ = {
 			isa = PBXGroup;
 			children = (
+				588C21012F3A067E0068FC6F /* ServiceReminderManager.swift */,
+				588C21032F3A068A0068FC6F /* ServiceTemplate.swift */,
 				58B297B72E92F87000AFAE57 /* ServiceSession.swift */,
 				58B297B52E92F63000AFAE57 /* ServiceInfo.swift */,
 			);
@@ -561,6 +567,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58FE3B082E81B40100638515 /* ContentView.swift in Sources */,
+				588C21042F3A068A0068FC6F /* ServiceTemplate.swift in Sources */,
 				58FE3B3E2E82754E00638515 /* MotorsSession.swift in Sources */,
 				58B297B82E92F87800AFAE57 /* ServiceSession.swift in Sources */,
 				58FE3BA52E883A2F00638515 /* EmptyMotorsView.swift in Sources */,
@@ -573,6 +580,7 @@
 				58FE3B992E882F1100638515 /* Dashboard+Model.swift in Sources */,
 				58FE3B892E82FCA400638515 /* BrandResponse.swift in Sources */,
 				58FE3B4D2E8298A000638515 /* MotorInfo.swift in Sources */,
+				588C21022F3A067E0068FC6F /* ServiceReminderManager.swift in Sources */,
 				584511E02ED0B35200441C9B /* ServiceList+View.swift in Sources */,
 				584511DC2EAF6EFE00441C9B /* AddService+Model.swift in Sources */,
 				58FE3B9B2E8832D300638515 /* Authorization.swift in Sources */,

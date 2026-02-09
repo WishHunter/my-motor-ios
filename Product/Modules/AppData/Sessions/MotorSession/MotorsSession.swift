@@ -63,7 +63,7 @@ public final class MotorsSession: ObservableObject {
 
   public func updateMileage(_ mileage: Int) {
     guard var mainMotor else { return }
-    mainMotor.mileage = mainMotor.mileage < mileage ? mileage : mainMotor.mileage
+    mainMotor.mileage = mileage
     self.mainMotor = mainMotor
     self.motors = motors.map { $0.id == mainMotor.id ? mainMotor : $0 }
   }

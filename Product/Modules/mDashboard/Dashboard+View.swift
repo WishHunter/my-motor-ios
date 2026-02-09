@@ -3,6 +3,7 @@ import Factory
 
 struct DashboardView: View {
   @InjectedObject(\.motorsSession) var motorsSession: MotorsSession
+  @Injected(\.serviceReminderManager) var reminderManager: ServiceReminderManager
 
   @State var openService: Bool = false
 
@@ -12,6 +13,9 @@ struct DashboardView: View {
         VStack(spacing: 20) {
           // Header с основной информацией
           MotorHeaderCard(motor: motor)
+          
+          // Предстоящие сервисы
+          UpcomingServicesCard()
           
           // Характеристики двигателя
           EngineSpecsCard(motor: motor)
@@ -342,6 +346,116 @@ struct AdditionalInfoCard: View {
     .background(Color(.systemBackground))
     .cornerRadius(12)
     .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
+  }
+}
+
+// MARK: - Upcoming Services Card
+struct UpcomingServicesCard: View {
+  @Injected(\.serviceReminderManager) var reminderManager: ServiceReminderManager
+  @InjectedObject(\.motorsSession) var motorsSession: MotorsSession
+  
+  var body: some View {
+    let upcomingServices = reminderManager.getServicesRequiringAttention()
+    let currentMileage = motorsSession.mainMotor?.mileage ?? 0
+    
+    if !upcomingServices.isEmpty {
+      VStack(alignment: .leading, spacing: 16) {
+        CardHeaderView(title: "Предстоящие сервисы", icon: "bell.fill")
+        
+        VStack(spacing: 12) {
+          ForEach(upcomingServices.prefix(5)) { service in
+            UpcomingServiceRow(service: service, currentMileage: currentMileage)
+            if service.id != upcomingServices.prefix(5).last?.id {
+              Divider()
+            }
+          }
+        }
+      }
+      .padding()
+      .background(Color(.systemBackground))
+      .cornerRadius(12)
+      .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
+    }
+  }
+}
+
+// MARK: - Upcoming Service Row
+struct UpcomingServiceRow: View {
+  let service: ServiceReminderManager.UpcomingService
+  let currentMileage: Int
+  
+  var body: some View {
+    HStack(spacing: 12) {
+      // Индикатор статуса
+      Circle()
+        .fill(statusColor)
+        .frame(width: 8, height: 8)
+      
+      VStack(alignment: .leading, spacing: 4) {
+        Text(service.templateName)
+          .font(.subheadline)
+          .fontWeight(.medium)
+        
+        HStack(spacing: 8) {
+          if let nextMileage = service.nextServiceMileage {
+            let remaining = nextMileage - currentMileage
+            if remaining > 0 {
+              Label("Осталось: \(remaining) км", systemImage: "speedometer")
+                .font(.caption)
+                .foregroundColor(.secondary)
+            } else {
+              Label("Просрочено на \(abs(remaining)) км", systemImage: "exclamationmark.triangle.fill")
+                .font(.caption)
+                .foregroundColor(.red)
+            }
+          }
+          
+          if let nextDate = service.nextServiceDate {
+            let calendar = Calendar.current
+            let now = Date()
+            if nextDate <= now {
+              Label("Просрочено", systemImage: "exclamationmark.triangle.fill")
+                .font(.caption)
+                .foregroundColor(.red)
+            } else {
+              let daysUntil = calendar.dateComponents([.day], from: now, to: nextDate).day ?? 0
+              if daysUntil <= 7 {
+                Label("Через \(daysUntil) дн.", systemImage: "calendar")
+                  .font(.caption)
+                  .foregroundColor(.orange)
+              } else {
+                Label("Через \(daysUntil) дн.", systemImage: "calendar")
+                  .font(.caption)
+                  .foregroundColor(.secondary)
+              }
+            }
+          }
+        }
+      }
+      
+      Spacer()
+      
+      // Иконка статуса
+      Image(systemName: statusIcon)
+        .foregroundColor(statusColor)
+        .font(.headline)
+    }
+  }
+  
+  private var statusColor: Color {
+    switch service.status {
+    case .onTime: return .green
+    case .soon: return .orange
+    case .overdue: return .red
+    }
+  }
+  
+  private var statusIcon: String {
+    switch service.status {
+    case .onTime: return "checkmark.circle.fill"
+    case .soon: return "exclamationmark.circle.fill"
+    case .overdue: return "xmark.circle.fill"
+    }
   }
 }
 

@@ -10,6 +10,9 @@ public struct ServiceInfo: Codable, Identifiable, Hashable {
   public var mileage: Int
   public var price: Double
   public var fuelVolume: Double?
+  public var templateId: String? // ID шаблона регулярного сервиса
+  public var customMileageInterval: Int? // Кастомный интервал по пробегу из этой записи (для расчета следующей замены)
+  public var customTimeInterval: Int? // Кастомный интервал по времени из этой записи (для расчета следующей замены)
 
   init(
     id: String = UUID().uuidString,
@@ -20,7 +23,10 @@ public struct ServiceInfo: Codable, Identifiable, Hashable {
     date: Date,
     mileage: Int,
     price: Double,
-    fuelVolume: Double? = nil
+    fuelVolume: Double? = nil,
+    templateId: String? = nil,
+    customMileageInterval: Int? = nil,
+    customTimeInterval: Int? = nil
   ) {
     self.id = id
     self.motorId = motorId
@@ -31,6 +37,9 @@ public struct ServiceInfo: Codable, Identifiable, Hashable {
     self.mileage = mileage
     self.price = price
     self.fuelVolume = fuelVolume
+    self.templateId = templateId
+    self.customMileageInterval = customMileageInterval
+    self.customTimeInterval = customTimeInterval
   }
 
   public enum ServiceType: String, Codable, CaseIterable {

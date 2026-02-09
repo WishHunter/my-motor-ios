@@ -5,6 +5,7 @@ struct AddServiceView: View {
   @Environment(\.dismiss) private var dismiss
 
   @StateObject private var model: AddServiceModel
+  @State private var showIntervalSettings = false
 
   @InjectedObject(\.motorsSession) var motorsSession: MotorsSession
 
@@ -33,6 +34,7 @@ struct AddServiceView: View {
 
         // Специфичные секции
         if model.type == .service {
+          ServiceTemplateSection(model: model, showIntervalSettings: $showIntervalSettings)
           ServiceFormSection(model: model)
         } else if model.type == .refuelling {
           RefuellingFormSection(model: model)
@@ -67,6 +69,16 @@ struct AddServiceView: View {
           .disabled(model.isSaveDisabled)
         }
       }
+      .sheet(isPresented: $showIntervalSettings) {
+        if let template = model.selectedTemplate {
+          ServiceIntervalSettingsSheet(
+            template: template,
+            customMileageIntervalText: $model.customMileageIntervalText,
+            customTimeIntervalText: $model.customTimeIntervalText,
+            saveIntervalForFuture: $model.saveIntervalForFuture
+          )
+        }
+      }
     }
   }
 
@@ -88,18 +100,225 @@ struct AddServiceView: View {
   }
 }
 
+// MARK: - Под-вью для выбора шаблона
+private struct ServiceTemplateSection: View {
+  @ObservedObject var model: AddServiceModel
+  @Binding var showIntervalSettings: Bool
+  
+  var body: some View {
+    Section {
+      Picker("Шаблон сервиса", selection: $model.selectedTemplateId) {
+        Text("Без шаблона").tag(nil as String?)
+        ForEach(ServiceTemplate.allTemplates, id: \.id) { template in
+          Text(template.name.displayName).tag(template.id as String?)
+        }
+      }
+      .pickerStyle(.navigationLink)
+      .onChange(of: model.selectedTemplateId) { oldValue, newValue in
+        if let templateId = newValue,
+           let template = ServiceTemplate.allTemplates.first(where: { $0.id == templateId }) {
+          model.selectTemplate(template)
+        }
+      }
+      
+      if let template = model.selectedTemplate {
+        // Информация об интервале (показываем эффективный - кастомный или дефолтный)
+        IntervalInfoView(
+          template: template,
+          customMileageInterval: model.customMileageInterval,
+          customTimeInterval: model.customTimeInterval,
+          onSettingsTap: { showIntervalSettings = true }
+        )
+      }
+    } header: {
+      Label("Регулярный сервис", systemImage: "repeat")
+    } footer: {
+      Text("Выберите шаблон для автоматического напоминания о следующей замене.")
+        .foregroundColor(.secondary)
+    }
+  }
+  
+  private func intervalTimeText(_ days: Int) -> String {
+    let years = days / 365
+    let months = (days % 365) / 30
+    if years > 0 {
+      return years == 1 ? "Каждые 1 год" : "Каждые \(years) года"
+    } else if months > 0 {
+      return months == 1 ? "Каждые 1 месяц" : "Каждые \(months) месяца"
+    } else {
+      return days == 1 ? "Каждые 1 день" : "Каждые \(days) дней"
+    }
+  }
+}
+
+// MARK: - Отображение информации об интервале
+private struct IntervalInfoView: View {
+  let template: ServiceTemplate
+  let customMileageInterval: Int?
+  let customTimeInterval: Int?
+  let onSettingsTap: () -> Void
+  
+  var effectiveMileageInterval: Int? {
+    customMileageInterval ?? template.defaultMileageInterval
+  }
+  
+  var effectiveTimeInterval: Int? {
+    customTimeInterval ?? template.defaultTimeInterval
+  }
+  
+  var body: some View {
+    VStack(alignment: .leading, spacing: 8) {
+      if effectiveMileageInterval != nil || effectiveTimeInterval != nil {
+        VStack(alignment: .leading, spacing: 4) {
+          Text("Интервал:")
+            .font(.caption)
+            .foregroundColor(.secondary)
+          if let mileageInterval = effectiveMileageInterval {
+            Label("Каждые \(mileageInterval) км", systemImage: "speedometer")
+              .font(.subheadline)
+          }
+          if let timeInterval = effectiveTimeInterval {
+            Label(intervalTimeText(timeInterval), systemImage: "calendar")
+              .font(.subheadline)
+          }
+        }
+      }
+      
+      Button(action: onSettingsTap) {
+        HStack {
+          Image(systemName: "slider.horizontal.3")
+          Text("Настроить интервал")
+        }
+      }
+    }
+    .padding(.vertical, 4)
+  }
+  
+  private func intervalTimeText(_ days: Int) -> String {
+    let years = days / 365
+    let months = (days % 365) / 30
+    if years > 0 {
+      return years == 1 ? "Каждые 1 год" : "Каждые \(years) года"
+    } else if months > 0 {
+      return months == 1 ? "Каждые 1 месяц" : "Каждые \(months) месяца"
+    } else {
+      return days == 1 ? "Каждые 1 день" : "Каждые \(days) дней"
+    }
+  }
+}
+
+// MARK: - Bottom Sheet для настройки интервала
+private struct ServiceIntervalSettingsSheet: View {
+  @Environment(\.dismiss) private var dismiss
+  
+  let template: ServiceTemplate
+  @Binding var customMileageIntervalText: String
+  @Binding var customTimeIntervalText: String
+  @Binding var saveIntervalForFuture: Bool
+  
+  var body: some View {
+    NavigationStack {
+      Form {
+        Section {
+          // Поле для интервала по пробегу (показываем если есть в шаблоне)
+          if template.defaultMileageInterval != nil {
+            VStack(alignment: .leading, spacing: 8) {
+              Text("Интервал по пробегу")
+                .font(.headline)
+              
+              HStack {
+                TextField(
+                  "\(template.defaultMileageInterval ?? 0)",
+                  text: $customMileageIntervalText
+                )
+                .keyboardType(.numberPad)
+                .textFieldStyle(.roundedBorder)
+                Text("км")
+                  .foregroundColor(.secondary)
+              }
+              
+              Text("По умолчанию: \(template.defaultMileageInterval ?? 0) км")
+                .font(.caption)
+                .foregroundColor(.secondary)
+            }
+          }
+          
+          // Поле для интервала по времени (показываем если есть в шаблоне)
+          if template.defaultTimeInterval != nil {
+            VStack(alignment: .leading, spacing: 8) {
+              Text("Интервал по времени")
+                .font(.headline)
+              
+              HStack {
+                TextField(
+                  "\(template.defaultTimeInterval ?? 0)",
+                  text: $customTimeIntervalText
+                )
+                .keyboardType(.numberPad)
+                .textFieldStyle(.roundedBorder)
+                Text("дней")
+                  .foregroundColor(.secondary)
+              }
+              
+              Text("По умолчанию: \(intervalTimeText(template.defaultTimeInterval ?? 0))")
+                .font(.caption)
+                .foregroundColor(.secondary)
+            }
+          }
+        } header: {
+          Text("Настройка интервала")
+        } footer: {
+          Text("Оставьте поля пустыми, чтобы использовать интервал по умолчанию.")
+        }
+        
+        Section {
+          Toggle("Сохранить для всех будущих замен", isOn: $saveIntervalForFuture)
+        } footer: {
+          Text("Если включено, этот интервал будет использоваться для всех будущих сервисов этого типа на этом мотоцикле.")
+        }
+      }
+      .navigationTitle("Настройка интервала")
+      .navigationBarTitleDisplayMode(.inline)
+      .toolbar {
+        ToolbarItem(placement: .topBarTrailing) {
+          Button("Готово") {
+            dismiss()
+          }
+        }
+      }
+    }
+  }
+  
+  private func intervalTimeText(_ days: Int) -> String {
+    let years = days / 365
+    let months = (days % 365) / 30
+    if years > 0 {
+      return years == 1 ? "1 год" : "\(years) года"
+    } else if months > 0 {
+      return months == 1 ? "1 месяц" : "\(months) месяца"
+    } else {
+      return days == 1 ? "1 день" : "\(days) дней"
+    }
+  }
+}
+
 // MARK: - Под-вью для сервиса
 private struct ServiceFormSection: View {
   @ObservedObject var model: AddServiceModel
 
   var body: some View {
     Section {
-      TextField("Название работ", text: $model.name)
-        .textInputAutocapitalization(.sentences)
+      if model.selectedTemplateId != nil {
+        Text(model.name.isEmpty ? "—" : model.name)
+          .foregroundColor(model.name.isEmpty ? .secondary : .primary)
+      } else {
+        TextField("Название работ", text: $model.name)
+          .textInputAutocapitalization(.sentences)
+      }
     } header: {
       Label("Название", systemImage: "wrench.and.screwdriver")
     } footer: {
-      if model.name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+      if model.selectedTemplateId == nil && model.name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
         Text("Опишите, что именно делали.").foregroundColor(.secondary)
       }
     }
