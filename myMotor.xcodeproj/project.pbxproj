@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584511DA2EAF6EF200441C9B /* AddService+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584511D92EAF6EEE00441C9B /* AddService+View.swift */; };
+		584511DC2EAF6EFE00441C9B /* AddService+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584511DB2EAF6EF700441C9B /* AddService+Model.swift */; };
+		584511E02ED0B35200441C9B /* ServiceList+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584511DF2ED0B34E00441C9B /* ServiceList+View.swift */; };
+		584511E22ED0B35A00441C9B /* ServiceList+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584511E12ED0B35600441C9B /* ServiceList+Model.swift */; };
+		58B297B62E92F63800AFAE57 /* ServiceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B297B52E92F63000AFAE57 /* ServiceInfo.swift */; };
+		58B297B82E92F87800AFAE57 /* ServiceSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B297B72E92F87000AFAE57 /* ServiceSession.swift */; };
 		58FE3B062E81B40100638515 /* myMotorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B052E81B40100638515 /* myMotorApp.swift */; };
 		58FE3B082E81B40100638515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE3B072E81B40100638515 /* ContentView.swift */; };
 		58FE3B0A2E81B40300638515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FE3B092E81B40300638515 /* Assets.xcassets */; };
@@ -77,6 +83,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		584511D92EAF6EEE00441C9B /* AddService+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddService+View.swift"; sourceTree = "<group>"; };
+		584511DB2EAF6EF700441C9B /* AddService+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddService+Model.swift"; sourceTree = "<group>"; };
+		584511DF2ED0B34E00441C9B /* ServiceList+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceList+View.swift"; sourceTree = "<group>"; };
+		584511E12ED0B35600441C9B /* ServiceList+Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ServiceList+Model.swift"; sourceTree = "<group>"; };
+		58B297B52E92F63000AFAE57 /* ServiceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInfo.swift; sourceTree = "<group>"; };
+		58B297B72E92F87000AFAE57 /* ServiceSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceSession.swift; sourceTree = "<group>"; };
 		58FE3B022E81B40100638515 /* myMotor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMotor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FE3B052E81B40100638515 /* myMotorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMotorApp.swift; sourceTree = "<group>"; };
 		58FE3B072E81B40100638515 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,6 +169,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		584511D72EAF6E9400441C9B /* mService */ = {
+			isa = PBXGroup;
+			children = (
+				584511DE2ED0B34500441C9B /* ServiceList */,
+				584511D82EAF6ED700441C9B /* AddService */,
+			);
+			path = mService;
+			sourceTree = "<group>";
+		};
+		584511D82EAF6ED700441C9B /* AddService */ = {
+			isa = PBXGroup;
+			children = (
+				584511DB2EAF6EF700441C9B /* AddService+Model.swift */,
+				584511D92EAF6EEE00441C9B /* AddService+View.swift */,
+			);
+			path = AddService;
+			sourceTree = "<group>";
+		};
+		584511DE2ED0B34500441C9B /* ServiceList */ = {
+			isa = PBXGroup;
+			children = (
+				584511E12ED0B35600441C9B /* ServiceList+Model.swift */,
+				584511DF2ED0B34E00441C9B /* ServiceList+View.swift */,
+			);
+			path = ServiceList;
+			sourceTree = "<group>";
+		};
+		58B297B42E92F60400AFAE57 /* ServiceSession */ = {
+			isa = PBXGroup;
+			children = (
+				58B297B72E92F87000AFAE57 /* ServiceSession.swift */,
+				58B297B52E92F63000AFAE57 /* ServiceInfo.swift */,
+			);
+			path = ServiceSession;
+			sourceTree = "<group>";
+		};
 		58FE3AF92E81B40000638515 = {
 			isa = PBXGroup;
 			children = (
@@ -199,22 +247,23 @@
 		58FE3B2E2E81D3C600638515 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				584511D72EAF6E9400441C9B /* mService */,
 				58FE3BA32E883A1400638515 /* DesignSystem */,
-				58FE3B9C2E88353400638515 /* MyMotors */,
-				58FE3B952E882EE600638515 /* Dashboard */,
+				58FE3B9C2E88353400638515 /* mMyMotors */,
+				58FE3B952E882EE600638515 /* mDashboard */,
 				58FE3B3A2E82750800638515 /* AppData */,
-				58FE3B2F2E81D3D000638515 /* AddMotor */,
+				58FE3B2F2E81D3D000638515 /* mAddMotor */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		58FE3B2F2E81D3D000638515 /* AddMotor */ = {
+		58FE3B2F2E81D3D000638515 /* mAddMotor */ = {
 			isa = PBXGroup;
 			children = (
 				58FE3B372E81D40A00638515 /* Resources */,
 				58FE3B362E81D40300638515 /* Sources */,
 			);
-			path = AddMotor;
+			path = mAddMotor;
 			sourceTree = "<group>";
 		};
 		58FE3B362E81D40300638515 /* Sources */ = {
@@ -252,6 +301,7 @@
 		58FE3B3B2E82752300638515 /* Sessions */ = {
 			isa = PBXGroup;
 			children = (
+				58B297B42E92F60400AFAE57 /* ServiceSession */,
 				58FE3B942E87C69100638515 /* MotorSession */,
 			);
 			path = Sessions;
@@ -314,22 +364,22 @@
 			path = MotorSession;
 			sourceTree = "<group>";
 		};
-		58FE3B952E882EE600638515 /* Dashboard */ = {
+		58FE3B952E882EE600638515 /* mDashboard */ = {
 			isa = PBXGroup;
 			children = (
 				58FE3B982E882F0D00638515 /* Dashboard+Model.swift */,
 				58FE3B962E882F0100638515 /* Dashboard+View.swift */,
 			);
-			path = Dashboard;
+			path = mDashboard;
 			sourceTree = "<group>";
 		};
-		58FE3B9C2E88353400638515 /* MyMotors */ = {
+		58FE3B9C2E88353400638515 /* mMyMotors */ = {
 			isa = PBXGroup;
 			children = (
 				58FE3B9F2E8835F700638515 /* MyMotors+Model.swift */,
 				58FE3B9D2E88356700638515 /* MyMotors+View.swift */,
 			);
-			path = MyMotors;
+			path = mMyMotors;
 			sourceTree = "<group>";
 		};
 		58FE3BA32E883A1400638515 /* DesignSystem */ = {
@@ -512,17 +562,23 @@
 			files = (
 				58FE3B082E81B40100638515 /* ContentView.swift in Sources */,
 				58FE3B3E2E82754E00638515 /* MotorsSession.swift in Sources */,
+				58B297B82E92F87800AFAE57 /* ServiceSession.swift in Sources */,
 				58FE3BA52E883A2F00638515 /* EmptyMotorsView.swift in Sources */,
+				584511DA2EAF6EF200441C9B /* AddService+View.swift in Sources */,
 				58FE3B972E882F0700638515 /* Dashboard+View.swift in Sources */,
 				58FE3B062E81B40100638515 /* myMotorApp.swift in Sources */,
 				58FE3B332E81D3F000638515 /* AddMotor+View.swift in Sources */,
 				58FE3B352E81D3F800638515 /* AddMotor+Model.swift in Sources */,
+				584511E22ED0B35A00441C9B /* ServiceList+Model.swift in Sources */,
 				58FE3B992E882F1100638515 /* Dashboard+Model.swift in Sources */,
 				58FE3B892E82FCA400638515 /* BrandResponse.swift in Sources */,
 				58FE3B4D2E8298A000638515 /* MotorInfo.swift in Sources */,
+				584511E02ED0B35200441C9B /* ServiceList+View.swift in Sources */,
+				584511DC2EAF6EFE00441C9B /* AddService+Model.swift in Sources */,
 				58FE3B9B2E8832D300638515 /* Authorization.swift in Sources */,
 				58FE3B8D2E83C71200638515 /* Error+.swift in Sources */,
 				58FE3BA02E88360100638515 /* MyMotors+Model.swift in Sources */,
+				58B297B62E92F63800AFAE57 /* ServiceInfo.swift in Sources */,
 				58FE3B8F2E849D4000638515 /* JSONLoader+.swift in Sources */,
 				58FE3B922E872A4100638515 /* UserDefault+.swift in Sources */,
 				58FE3B932E872A4100638515 /* Published+.swift in Sources */,

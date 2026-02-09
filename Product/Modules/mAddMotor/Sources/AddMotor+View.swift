@@ -17,7 +17,8 @@ struct AddMotorView: View {
         Form {
           Section {
             Picker("Марка", selection: $model.selectedBrand) {
-              Text("— выбери марку, раб —").tag(Optional<BrandResponse>.none)
+              Text("— выбери марку, раб —")
+                .tag(Optional<BrandResponse>.none)
               ForEach(model.brands, id: \.self) { option in
                 Text(option.name).tag(Optional(option))
               }
@@ -53,7 +54,8 @@ struct AddMotorView: View {
 
           Section {
             Picker("Год выпуска", selection: $model.selectedYear) {
-              Text("— выбери год —").tag(Optional<Int>.none)
+              Text("— выбери год —")
+                .tag(Optional<Int>.none)
               ForEach(model.years, id: \.self) { option in
                 Text(String(option)).tag(Optional(option))
               }
@@ -112,11 +114,23 @@ struct AddMotorView: View {
             .disabled(model.isContinueDisabled)
           }
         }
-        .onChange(of: model.selectedBrand) {
-          Task { await model.getModels(forBrandWithId: model.selectedBrand.id) }
+        .onChange(of: model.selectedBrand) { _, newBrand in
+          if let brand = newBrand {
+            Task { await model.getModels(forBrandWithId: brand.id) }
+          } else {
+            model.models = []
+            model.selectedModel = nil
+            model.years = []
+            model.selectedYear = nil
+          }
         }
-        .onChange(of: model.selectedModel) {
-          model.getYears()
+        .onChange(of: model.selectedModel) { _, newModel in
+          if newModel != nil {
+            model.getYears()
+          } else {
+            model.years = []
+            model.selectedYear = nil
+          }
         }
         
         // Overlay для полного перекрытия при загрузке брендов

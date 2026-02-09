@@ -9,13 +9,13 @@ final class AddMotorModel: ObservableObject {
   @Published var years: [Int] = []
   @Published var isLoading: Bool = false
 
-  @Published var selectedBrand: BrandResponse = .empty
-  @Published var selectedModel: MotorResponse = .empty
-  @Published var selectedYear: Int = 0
+  @Published var selectedBrand: BrandResponse? = nil
+  @Published var selectedModel: MotorResponse? = nil
+  @Published var selectedYear: Int? = nil
   @Published var mileage: String = ""
 
   var isContinueDisabled: Bool {
-    isLoading || selectedBrand.id.isEmpty || selectedModel.id.isEmpty || selectedYear == 0 || mileage.isEmpty || !isValidMileage
+    isLoading || selectedBrand?.id.isEmpty != false || selectedModel?.id.isEmpty != false || selectedYear == nil || mileage.isEmpty || !isValidMileage
   }
 
   var isValidMileage: Bool {
@@ -39,7 +39,6 @@ final class AddMotorModel: ObservableObject {
     isLoading = true
     models = await Bundle.main.load("models_\(brandId)", as: [MotorResponse].self, default: [])
     if !models.isEmpty {
-      selectedModel = models.first!
       getYears()
     }
     isLoading = false
@@ -47,15 +46,25 @@ final class AddMotorModel: ObservableObject {
 
   func getYears() {
     years = []
+    guard let selectedModel = selectedModel else {
+      selectedYear = nil
+      return
+    }
     let startYear: Int = selectedModel.production?.startYear ?? Calendar.current.component(.year, from: Date())
     let endYear: Int = selectedModel.production?.endYear ?? Calendar.current.component(.year, from: Date())
     years = Array(startYear...endYear)
-    selectedYear = years.first!
   }
 
   func saveMotor() {
     guard let mileageInt = Int(mileage) else {
       print("Ошибка: некорректный пробег")
+      return
+    }
+    
+    guard let selectedBrand = selectedBrand,
+          let selectedModel = selectedModel,
+          let selectedYear = selectedYear else {
+      print("Ошибка: не все поля выбраны")
       return
     }
 

@@ -4,6 +4,8 @@ import Factory
 struct DashboardView: View {
   @InjectedObject(\.motorsSession) var motorsSession: MotorsSession
 
+  @State var openService: Bool = false
+
   var body: some View {
     ScrollView {
       if let motor = motorsSession.mainMotor {
@@ -30,6 +32,25 @@ struct DashboardView: View {
     }
     .navigationTitle("Мой мотоцикл")
     .navigationBarTitleDisplayMode(.inline)
+    .overlay(alignment: .bottomTrailing) {
+      if !motorsSession.mainMotor.isNil {
+        Button(action: { openService = true }) {
+          Image(systemName: "plus")
+            .font(.system(size: 22, weight: .bold))
+            .foregroundColor(.white)
+            .frame(width: 56, height: 56)
+            .background(
+              Circle()
+                .fill(Color.blue)
+            )
+            .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 2)
+        }
+        .padding()
+      }
+    }
+    .sheet(isPresented: $openService) {
+      AddServiceView()
+    }
   }
 }
 
