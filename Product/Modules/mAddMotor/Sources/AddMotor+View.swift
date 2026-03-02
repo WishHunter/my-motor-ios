@@ -133,7 +133,6 @@ struct AddMotorView: View {
           }
         }
         
-        // Overlay для полного перекрытия при загрузке брендов
         if model.isLoading && model.brands.isEmpty {
           Color.black.opacity(0.3)
             .ignoresSafeArea()

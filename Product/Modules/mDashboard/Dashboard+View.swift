@@ -11,22 +11,16 @@ struct DashboardView: View {
     ScrollView {
       if let motor = motorsSession.mainMotor {
         VStack(spacing: 20) {
-          // Header с основной информацией
           MotorHeaderCard(motor: motor)
           
-          // Предстоящие сервисы
           UpcomingServicesCard()
           
-          // Характеристики двигателя
           EngineSpecsCard(motor: motor)
           
-          // Подвеска и тормоза
           SuspensionBrakesCard(motor: motor)
           
-          // Габариты и вес
           DimensionsWeightCard(motor: motor)
           
-          // Дополнительная информация
           AdditionalInfoCard(motor: motor)
         }
         .padding()
@@ -58,7 +52,6 @@ struct DashboardView: View {
   }
 }
 
-// MARK: - Motor Header Card
 struct MotorHeaderCard: View {
   let motor: MotorInfo
   
@@ -111,7 +104,6 @@ struct MotorHeaderCard: View {
   }
 }
 
-// MARK: - Engine Specs Card
 struct EngineSpecsCard: View {
   let motor: MotorInfo
   
@@ -155,7 +147,6 @@ struct EngineSpecsCard: View {
   }
 }
 
-// MARK: - Suspension & Brakes Card
 struct SuspensionBrakesCard: View {
   let motor: MotorInfo
   
@@ -242,7 +233,6 @@ struct SuspensionBrakesCard: View {
   }
 }
 
-// MARK: - Dimensions & Weight Card
 struct DimensionsWeightCard: View {
   let motor: MotorInfo
   
@@ -286,7 +276,6 @@ struct DimensionsWeightCard: View {
   }
 }
 
-// MARK: - Additional Info Card
 struct AdditionalInfoCard: View {
   let motor: MotorInfo
   
@@ -349,7 +338,6 @@ struct AdditionalInfoCard: View {
   }
 }
 
-// MARK: - Upcoming Services Card
 struct UpcomingServicesCard: View {
   @Injected(\.serviceReminderManager) var reminderManager: ServiceReminderManager
   @InjectedObject(\.motorsSession) var motorsSession: MotorsSession
@@ -379,14 +367,12 @@ struct UpcomingServicesCard: View {
   }
 }
 
-// MARK: - Upcoming Service Row
 struct UpcomingServiceRow: View {
   let service: ServiceReminderManager.UpcomingService
   let currentMileage: Int
   
   var body: some View {
     HStack(spacing: 12) {
-      // Индикатор статуса
       Circle()
         .fill(statusColor)
         .frame(width: 8, height: 8)
@@ -435,7 +421,6 @@ struct UpcomingServiceRow: View {
       
       Spacer()
       
-      // Иконка статуса
       Image(systemName: statusIcon)
         .foregroundColor(statusColor)
         .font(.headline)
@@ -459,7 +444,6 @@ struct UpcomingServiceRow: View {
   }
 }
 
-// MARK: - Helper Views
 struct CardHeaderView: View {
   let title: String
   let icon: String

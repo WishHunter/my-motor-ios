@@ -41,12 +41,11 @@ struct ServiceListView: View {
             }
           }
           .onDelete { indexSet in
-            // Берём snapshot текущего списка и вычисляем id для удаления
             let snapshot = services
             let idsToRemove = indexSet.compactMap { idx in
               snapshot.indices.contains(idx) ? snapshot[idx].id : nil
             }
-            idsToRemove.forEach { model.removeService(id: $0) }
+            model.removeServices(ids: idsToRemove, snapshot: snapshot)
           }
         }
         .listStyle(.insetGrouped)

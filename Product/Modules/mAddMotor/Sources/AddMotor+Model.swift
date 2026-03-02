@@ -20,7 +20,7 @@ final class AddMotorModel: ObservableObject {
 
   var isValidMileage: Bool {
     guard let mileageInt = Int(mileage) else { return false }
-    return mileageInt >= 0 && mileageInt <= 999999 // Разумные пределы для пробега
+    return mileageInt >= 0 && mileageInt <= 999999
   }
 
   init() {
@@ -82,7 +82,6 @@ final class AddMotorModel: ObservableObject {
   }
 }
 
-// MARK: - Private Extension for MotorInfo Creation
 private extension MotorInfo {
   init?(
     brand: BrandResponse,
@@ -90,7 +89,6 @@ private extension MotorInfo {
     year: Int,
     mileage: Int
   ) {
-    // Находим спецификации для выбранного года
     guard let periodSpec = MotorInfo.findPeriodSpec(for: year, in: model.periodSpecs) else {
       return nil
     }
@@ -140,7 +138,6 @@ private extension MotorInfo {
   private static func parseSuspensionType(_ suspensionString: String?) -> SuspensionType {
     guard let suspension = suspensionString else { return .unknown }
     
-    // Парсим различные варианты подвески из JSON
     if suspension.contains("USD") {
       if suspension.contains("Showa") {
         return .showaUSD

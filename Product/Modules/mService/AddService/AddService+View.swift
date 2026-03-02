@@ -6,6 +6,7 @@ struct AddServiceView: View {
 
   @StateObject private var model: AddServiceModel
   @State private var showIntervalSettings = false
+  @State private var saveError: AddServiceModel.SaveError?
 
   @InjectedObject(\.motorsSession) var motorsSession: MotorsSession
 
@@ -32,7 +33,6 @@ struct AddServiceView: View {
           Label("Тип", systemImage: "square.and.pencil")
         }
 
-        // Специфичные секции
         if model.type == .service {
           ServiceTemplateSection(model: model, showIntervalSettings: $showIntervalSettings)
           ServiceFormSection(model: model)
@@ -40,13 +40,13 @@ struct AddServiceView: View {
           RefuellingFormSection(model: model)
         }
 
-        // Общие секции
-        DateSection(date: $model.date)
+        DateSection(date: $model.date, isDisabled: !model.isDateEditable)
 
         MileageSection(
           mileageText: $model.mileageText,
           isValid: model.isMileageValid,
-          placeholderMileage: motorsSession.mainMotor?.mileage ?? 0
+          placeholderMileage: motorsSession.mainMotor?.mileage ?? 0,
+          invalidText: model.mileageInvalidText
         )
 
         PriceSection(
@@ -62,9 +62,13 @@ struct AddServiceView: View {
         }
         ToolbarItem(placement: .topBarTrailing) {
           Button("Сохранить") {
-            model.save()
-            onSuccess?()
-            dismiss()
+            switch model.save() {
+            case .success:
+              onSuccess?()
+              dismiss()
+            case .failure(let error):
+              saveError = error
+            }
           }
           .disabled(model.isSaveDisabled)
         }
@@ -79,6 +83,11 @@ struct AddServiceView: View {
           )
         }
       }
+      .alert("Не удалось сохранить", item: $saveError) { _ in
+        Button("Ок", role: .cancel) {}
+      } message: { error in
+        Text(error.localizedDescription)
+      }
     }
   }
 
@@ -88,19 +97,21 @@ struct AddServiceView: View {
     case .refuelling: return "Заправка"
     }
   }
+}
 
-  private func petrolTitle(for type: ServiceInfo.PetrolType) -> String {
-    switch type {
-    case .diesel: return "Дизель"
-    case .petrol92: return "АИ-92"
-    case .petrol95: return "АИ-95"
-    case .petrol98: return "АИ-98"
-    case .petrol100: return "АИ-100"
-    }
+private func intervalTimeText(_ days: Int, prefixEach: Bool) -> String {
+  let years = days / 365
+  let months = (days % 365) / 30
+  if years > 0 {
+    return prefixEach ? (years == 1 ? "Каждые 1 год" : "Каждые \(years) года") : (years == 1 ? "1 год" : "\(years) года")
+  } else if months > 0 {
+    return prefixEach ? (months == 1 ? "Каждые 1 месяц" : "Каждые \(months) месяца") : (months == 1 ? "1 месяц" : "\(months) месяца")
+  } else {
+    return prefixEach ? (days == 1 ? "Каждые 1 день" : "Каждые \(days) дней") : (days == 1 ? "1 день" : "\(days) дней")
   }
 }
 
-// MARK: - Под-вью для выбора шаблона
+// Подвью выбора шаблона.
 private struct ServiceTemplateSection: View {
   @ObservedObject var model: AddServiceModel
   @Binding var showIntervalSettings: Bool
@@ -115,14 +126,14 @@ private struct ServiceTemplateSection: View {
       }
       .pickerStyle(.navigationLink)
       .onChange(of: model.selectedTemplateId) { oldValue, newValue in
-        if let templateId = newValue,
-           let template = ServiceTemplate.allTemplates.first(where: { $0.id == templateId }) {
+        if let templateId = newValue, let template = ServiceTemplate.template(id: templateId) {
           model.selectTemplate(template)
+        } else if newValue == nil {
+          model.clearTemplateSelection()
         }
       }
       
       if let template = model.selectedTemplate {
-        // Информация об интервале (показываем эффективный - кастомный или дефолтный)
         IntervalInfoView(
           template: template,
           customMileageInterval: model.customMileageInterval,
@@ -137,21 +148,9 @@ private struct ServiceTemplateSection: View {
         .foregroundColor(.secondary)
     }
   }
-  
-  private func intervalTimeText(_ days: Int) -> String {
-    let years = days / 365
-    let months = (days % 365) / 30
-    if years > 0 {
-      return years == 1 ? "Каждые 1 год" : "Каждые \(years) года"
-    } else if months > 0 {
-      return months == 1 ? "Каждые 1 месяц" : "Каждые \(months) месяца"
-    } else {
-      return days == 1 ? "Каждые 1 день" : "Каждые \(days) дней"
-    }
-  }
 }
 
-// MARK: - Отображение информации об интервале
+// Информация об интервале.
 private struct IntervalInfoView: View {
   let template: ServiceTemplate
   let customMileageInterval: Int?
@@ -178,7 +177,7 @@ private struct IntervalInfoView: View {
               .font(.subheadline)
           }
           if let timeInterval = effectiveTimeInterval {
-            Label(intervalTimeText(timeInterval), systemImage: "calendar")
+            Label(intervalTimeText(timeInterval, prefixEach: true), systemImage: "calendar")
               .font(.subheadline)
           }
         }
@@ -193,21 +192,9 @@ private struct IntervalInfoView: View {
     }
     .padding(.vertical, 4)
   }
-  
-  private func intervalTimeText(_ days: Int) -> String {
-    let years = days / 365
-    let months = (days % 365) / 30
-    if years > 0 {
-      return years == 1 ? "Каждые 1 год" : "Каждые \(years) года"
-    } else if months > 0 {
-      return months == 1 ? "Каждые 1 месяц" : "Каждые \(months) месяца"
-    } else {
-      return days == 1 ? "Каждые 1 день" : "Каждые \(days) дней"
-    }
-  }
 }
 
-// MARK: - Bottom Sheet для настройки интервала
+// Экран настройки интервала.
 private struct ServiceIntervalSettingsSheet: View {
   @Environment(\.dismiss) private var dismiss
   
@@ -220,7 +207,6 @@ private struct ServiceIntervalSettingsSheet: View {
     NavigationStack {
       Form {
         Section {
-          // Поле для интервала по пробегу (показываем если есть в шаблоне)
           if template.defaultMileageInterval != nil {
             VStack(alignment: .leading, spacing: 8) {
               Text("Интервал по пробегу")
@@ -243,7 +229,6 @@ private struct ServiceIntervalSettingsSheet: View {
             }
           }
           
-          // Поле для интервала по времени (показываем если есть в шаблоне)
           if template.defaultTimeInterval != nil {
             VStack(alignment: .leading, spacing: 8) {
               Text("Интервал по времени")
@@ -260,7 +245,7 @@ private struct ServiceIntervalSettingsSheet: View {
                   .foregroundColor(.secondary)
               }
               
-              Text("По умолчанию: \(intervalTimeText(template.defaultTimeInterval ?? 0))")
+              Text("По умолчанию: \(intervalTimeText(template.defaultTimeInterval ?? 0, prefixEach: false))")
                 .font(.caption)
                 .foregroundColor(.secondary)
             }
@@ -288,21 +273,9 @@ private struct ServiceIntervalSettingsSheet: View {
       }
     }
   }
-  
-  private func intervalTimeText(_ days: Int) -> String {
-    let years = days / 365
-    let months = (days % 365) / 30
-    if years > 0 {
-      return years == 1 ? "1 год" : "\(years) года"
-    } else if months > 0 {
-      return months == 1 ? "1 месяц" : "\(months) месяца"
-    } else {
-      return days == 1 ? "1 день" : "\(days) дней"
-    }
-  }
 }
 
-// MARK: - Под-вью для сервиса
+// Подвью для записи сервиса.
 private struct ServiceFormSection: View {
   @ObservedObject var model: AddServiceModel
 
@@ -325,7 +298,7 @@ private struct ServiceFormSection: View {
   }
 }
 
-// MARK: - Под-вью для заправки
+// Подвью для записи заправки.
 private struct RefuellingFormSection: View {
   @ObservedObject var model: AddServiceModel
 
@@ -366,23 +339,27 @@ private struct RefuellingFormSection: View {
   }
 }
 
-// MARK: - Общие секции формы
+// Подвью выбора даты.
 private struct DateSection: View {
   @Binding var date: Date
+  let isDisabled: Bool
 
   var body: some View {
     Section {
       DatePicker("Дата", selection: $date, displayedComponents: .date)
+        .disabled(isDisabled)
     } header: {
       Label("Дата", systemImage: "calendar")
     }
   }
 }
 
+// Подвью ввода пробега.
 private struct MileageSection: View {
   @Binding var mileageText: String
   let isValid: Bool
   let placeholderMileage: Int
+  let invalidText: String
 
   var body: some View {
     Section {
@@ -392,7 +369,7 @@ private struct MileageSection: View {
         Text("км").foregroundColor(.secondary)
       }
       if !mileageText.isEmpty && !isValid {
-        Text("Введите корректный пробег (0–2 000 000 км)")
+        Text(invalidText)
           .font(.caption)
           .foregroundColor(.red)
       }
@@ -404,6 +381,7 @@ private struct MileageSection: View {
   }
 }
 
+// Подвью ввода стоимости.
 private struct PriceSection: View {
   @Binding var priceText: String
   let isValid: Bool

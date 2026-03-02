@@ -67,7 +67,6 @@ struct AddMotorButtonView: View {
   }
 }
 
-// MARK: - Motor Card View
 struct MotorCardView: View {
   let motor: MotorInfo
   let isMainMotor: Bool
@@ -77,7 +76,6 @@ struct MotorCardView: View {
   var body: some View {
     Button(action: onTap) {
       HStack(spacing: 16) {
-        // Иконка мотоцикла
         VStack {
           Image(systemName: "motorcycle")
             .font(.system(size: 24))
@@ -92,7 +90,6 @@ struct MotorCardView: View {
         }
         .frame(width: 50)
         
-        // Основная информация
         VStack(alignment: .leading, spacing: 4) {
           HStack {
             Text("\(motor.make) \(motor.model)")
@@ -127,7 +124,6 @@ struct MotorCardView: View {
           }
         }
         
-        // Стрелка
         Image(systemName: "chevron.right")
           .font(.caption)
           .foregroundColor(isMainMotor ? .white.opacity(0.6) : .secondary)
@@ -167,9 +163,8 @@ struct MotorCardView: View {
   }
 }
 
-// MARK: - Motor Info Extensions
 extension MotorInfo {
-  /// Краткое описание мотоцикла для карточки
+  // Краткое описание мотоцикла для карточки.
   var shortDescription: String {
     return "\(Int(info.displacement))cc • \(info.power) л.с. • \(info.engineType.rawValue)"
   }

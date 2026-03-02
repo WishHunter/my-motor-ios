@@ -11,7 +11,6 @@ final class ServiceListModel: ObservableObject {
   @Published var services: [ServiceInfo] = []
 
   init() {
-    // Подписка на изменения списка сервисов
     serviceSession.$services
       .receive(on: DispatchQueue.main)
       .sink { [weak self] _ in
@@ -19,7 +18,6 @@ final class ServiceListModel: ObservableObject {
       }
       .store(in: &cancellables)
 
-    // Подписка на смену главного мотоцикла
     motorsSession.$mainMotor
       .receive(on: DispatchQueue.main)
       .sink { [weak self] _ in
@@ -38,7 +36,6 @@ final class ServiceListModel: ObservableObject {
       .sorted { $0.date > $1.date }
   }
 
-  // Форматирование
   private let dateFormatter: DateFormatter = {
     let df = DateFormatter()
     df.dateStyle = .medium
@@ -75,8 +72,19 @@ final class ServiceListModel: ObservableObject {
     }
   }
 
-  // Удаление записи (по свайпу)
-  func removeService(id: String) {
-    serviceSession.remove(id: id)
+  // Удаление записей. Если удаляется последняя запись, пробег откатывается до предыдущей.
+  func removeServices(ids: [String], snapshot: [ServiceInfo]) {
+    guard let motorId = motorsSession.mainMotor?.id else { return }
+    let mostRecentId = snapshot.first?.id
+    let isRemovingMostRecent = (mostRecentId != nil) && ids.contains(mostRecentId!)
+
+    ids.forEach { serviceSession.remove(id: $0) }
+
+    guard isRemovingMostRecent else { return }
+    let newMostRecentMileage = serviceSession.services(for: motorId)
+      .sorted { $0.date > $1.date }
+      .first?
+      .mileage ?? 0
+    motorsSession.updateMileage(newMostRecentMileage)
   }
 }
